@@ -293,75 +293,241 @@ export const products: Product[] = [
 
   // PROMO - subCategory: lifestyle
   {
-    id: "promo-lifestyle-1",
-    name: "Lifestyle & Personal Care Pack - A",
-    image: "https://picsum.photos/seed/promo-lifestyle-1/600/400",
-    images: [],
-    price: 749,
+    id: "Gorgeous Bride Gift Box",
+    name: "Gorgeous Bride Gift Box",
+    image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762855490/Gorgeous-Bride-2-768x768_haumcj.webp",
+    images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762855490/Gorgeous-Bride-2-768x768_haumcj.webp",
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762855489/Gorgeous-Bride--768x782_btjawv.webp"
+    ],
+    price: 2175,
+    originalPrice: 2500,
     category: "promotional-gifts",
     subCategory: "lifestyle",
     description: "Personal care & lifestyle gifts suitable for events.",
   },
-  // PROMO - subCategory: lifestyle
+  
   {
-    id: "promo-lifestyle-2",
-    name: "Lifestyle & Personal Care Pack - B",
-    image: "https://picsum.photos/seed/promo-lifestyle-2/600/400",
-    images: [],
-    price: 999,
-    category: "gift-packs",
+    id: "Pretty Pink Box for Her",
+    name: "Pretty Pink Box for Her",
+    image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762856397/Pretty-Pink-Gift-Hamper-3_vlqpxo.webp",
+    images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762856397/Pretty-Pink-Gift-Hamper-3_vlqpxo.webp",
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762856397/Pretty-Pink-Gift-Hamper-3_vlqpxo.webp"
+    ],
+    price: 2599,
+    originalPrice: 2999,
+    category: "promotional-gifts",
     subCategory: "lifestyle",
-    description: "Curated lifestyle hamper with candles and snacks.",
+    description: "Personal care & lifestyle gifts suitable for her.",
+  },
+  {
+    id: "Pamper Yourself Gift Hamper",
+    name: "Pamper Yourself Gift Hamper",
+    image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762856972/pamper-yourself-gift-hamper-the-spring-palette-37328289169627_uye89z.webp",
+    images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762856972/pamper-yourself-gift-hamper-the-spring-palette-37328289169627_uye89z.webp",
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762856971/pamper-yourself-gift-hamper-the-spring-palette-37328289661147_ne8zap.jpg",
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762856970/pamper-yourself-gift-hamper-the-spring-palette-37328304111835_x1ormz.jpg",
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762856970/pamper-yourself-gift-hamper-the-spring-palette-37328290021595_ayfity.webp"
+    ],
+    price: 2249,
+    originalPrice: 2999,
+    category: "promotional-gifts",
+    subCategory: "lifestyle",
+    description: "Personal care & lifestyle gifts suitable for her.",
+  },
+   {
+    id: "Sweet Birthday Celebration Basket",
+    name: "Sweet Birthday Celebration Basket",
+    image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762857495/Gemini_Generated_Image_t1ek01t1ek01t1ek_himzxy.png",
+    images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762857495/Gemini_Generated_Image_t1ek01t1ek01t1ek_himzxy.png",
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762857495/Gemini_Generated_Image_rhk2uirhk2uirhk2_ggcl3w.png",
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762857496/Gemini_Generated_Image_kahar6kahar6kaha_az8oef.png"
+    ],
+    price: 1575,
+    originalPrice: 1800,
+    category: "promotional-gifts",
+    subCategory: "lifestyle",
+    description: "Personal care & lifestyle gifts suitable for her.",
   },
 
   // PROMO - subCategory: eco
   {
-    id: "promo-eco-1",
-    name: "Eco-friendly Gift Set - A",
-    image: "https://picsum.photos/seed/promo-eco-1/600/400",
-    images: [],
-    price: 499,
-    category: "gift-packs",
+    id: "Thenga Evergreen Eco-Friendly Gift Hampers",
+    name: "Thenga Evergreen Eco-Friendly Gift Hampers",
+    image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762857931/Evergreen3_1080x_phrevh.webp",
+    images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762857931/Evergreen3_1080x_phrevh.webp",
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762857930/285_1080x_aqruoi.webp",
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762857929/Evergreen2_1080x_rfmhnv.webp",
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762857928/284_180x_pccbcg.avif"
+    ],
+    price: 1499,
+    originalPrice: 1799,
+    category: "promotional-gifts",
     subCategory: "eco",
     description: "Jute and terracotta based eco-friendly promotional gifts.",
   },
   // PROMO - subCategory: eco
   {
-    id: "promo-eco-2",
-    name: "Eco-friendly Gift Set - B",
-    image: "https://picsum.photos/seed/promo-eco-2/600/400",
-    images: [],
-    price: 799,
-    category: "promotional-gifts",
-    subCategory: "eco",
-    description: "Sustainable corporate gift options with branding.",
-  },
+  id: "Eco - Essentials",
+  name: "Eco - Essentials",
+  image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762858534/eco-friendly-gift_cbg5tt.webp",
+  images: [
+    "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762858534/eco-friendly-gift_cbg5tt.webp",
+    "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762858532/corporate-eco-friendly-gifts_ztazcl.webp",
+    "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762858530/eco-friendly-gift-hamper_vfnz6q.webp",
+    "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762858529/Mug_2_y7afv3.webp",
+    "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762858528/CoconutCandle_vsffkq.webp",
+    "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762858527/multipurpose-eco-friendly-canvas-pouch_sdfzhc.webp",
+    "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762858526/StrawP4_iby4fu.webp"
+  ],
+  price: 2650,
+  originalPrice: 3100,
+  category: "promotional-gifts",
+  subCategory: "eco",
+  description: `Are you looking for eco-friendly gift hampers for employees, clients, and business associates? Check out our ‘eco-essentials’ organic gift hamper that will not only cater to your brand image but also protect the environment. Transform your everyday routine with this eco-conscious, sustainable gift hamper that combines style and sustainability.
 
-  // PROMO - subCategory: premium
-  {
-    id: "promo-premium-1",
-    name: "Premium Luxury Hamper - A",
-    image: "https://picsum.photos/seed/promo-premium-1/600/400",
-    images: [],
-    price: 2999,
-    originalPrice: 3499,
-    category: "corporates",
-    subCategory: "premium",
-    description: "High-end premium hamper for executive gifting.",
-  },
-  // PROMO - subCategory: premium
-  {
-    id: "promo-premium-2",
-    name: "Premium Luxury Hamper - B",
-    image: "https://picsum.photos/seed/promo-premium-2/600/400",
-    images: [],
-    price: 3999,
+The chic multipurpose canvas pouch keeps your essentials organized, while the 250-ml eco-friendly travel cup makes every sip feel planet-friendly. With the reusable stainless steel straw set of 4 straws in its jute pouch, you can make a small but meaningful change in your daily life to conserve the planet. Plus, you will get a coconut shell candle made with soy wax that adds a touch of natural serenity to any space.
+
+This eco-friendly gift hamper is perfect for those who want to make a positive impact on the environment while enjoying stylish and practical accessories.`,
+},
+{
+  id: "The Eco-friendly Box",
+  name: "The Eco-friendly Box",
+  image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762859400/Gemini_Generated_Image_l0d3f6l0d3f6l0d3_sklqhn.png",
+  images: [
+    "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762859400/Gemini_Generated_Image_l0d3f6l0d3f6l0d3_sklqhn.png",
+    "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762859401/Gemini_Generated_Image_f0fdbzf0fdbzf0fd_p54vpy.png",
+    "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762859432/41KDjRa5viL_888ec556-919e-4b8b-9ff0-8d398c77b85d_phoxrw.webp",
+    "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762859433/CorkV1_paad1w.webp",
+    "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762859435/WhatsAppImage2023-09-02at14.25.59_2_indto2.webp",
+    "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762859436/WhatsAppImage2023-09-02at14.26.00_jdnuzb.webp",
+    "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762859439/travelpouch.03_fb1f6bef-f104-4269-bf1a-4e1b047af671_zj6g8w.webp"
+  ],
+  price: 3350,
+  originalPrice: 3700,
+  category: "promotional-gifts",
+  subCategory: "eco",
+  description: `Going eco-friendly can help you go a long way.’ This saying is especially true when it comes to corporate gifting. Choosing environmentally friendly gifts is not just good for the environment but also good for your brand image. If you are looking for some creative, thoughtful, and sustainable gift ideas, this Eco-friendly box would be perfect for you.
+
+ This eco-friendly gift box contains an insulated bamboo tumbler to keep your beverages hot or cold for a long time. The cork coasters and cork diary are a great way to reuse cork and avoid generating extra waste. You will also get a cork travel pouch in this gift hamper, that can be a great replacement for plastic travel pouches. This way, you can contribute to conserving the environment without compromising on functionality. 
+
+The plantable pens are a great way to inspire more people to plant trees, and they come in a sustainable cork pouch. Besides being sustainable, all the items in this eco-friendly box are aesthetically pleasing and make your life easy and convenient.`,
+},
+{
+  id: "Eco-Chic Gift Box - Bamboo like notebook, pen & Bamboo bottle Gift Pack",
+  name: "Eco-Chic Gift Box - Bamboo like notebook, pen & Bamboo bottle Gift Pack",
+  image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762860294/Gemini_Generated_Image_t57d7ft57d7ft57d_xykllv.png",
+  images: [
+    "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762860294/Gemini_Generated_Image_t57d7ft57d7ft57d_xykllv.png",
+    "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762860294/Gemini_Generated_Image_sg0ovksg0ovksg0o_e8fexa.png",
+    "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762860293/Gemini_Generated_Image_u708ksu708ksu708_vzrhhm.png"
+  ],
+  price: 3350,
+  originalPrice: 3700,
+  category: "promotional-gifts",
+  subCategory: "eco",
+  description: `Embrace style and sustainability with our Eco-Chic Gift Box, featuring a bamboo-inspired notebook, sleek bamboo water bottle, and smooth bamboo pen—all crafted from eco-friendly, reusable materials. Perfect for work, travel, and gifting, this elegant set combines natural charm with everyday functionality, helping reduce plastic waste while adding a touch of earthy sophistication to your routine or someone special’s day.
+`,
+},
+{
+  id: "The Sustainable Way",
+  name: "The Sustainable Way",
+  image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762860678/eco-friendly-corporate-gift-hamper_o0ec28.webp",
+  images: [
+    "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762860689/eco-friendly-copper-gift_s2dfhm.webp",
+    "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762860678/eco-friendly-corporate-gift-hamper_o0ec28.webp",
+    "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762860677/WoodenLeafCoaster_1_mbveo9.webp ",
+    "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762860674/IndividualDiwaliProducts_-4_422fe08b-08a0-4070-aa5c-40fd6992e3b3_ldx3ke.webp",
+    "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762860673/CoconutCandle_1_oywh5h.webp",
+    "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762860672/wooden-slider-gift-box_p1qgju.webp"
+  ],
+  price: 2290,
+  originalPrice: 3290,
+  category: "promotional-gifts",
+  subCategory: "eco",
+  description: `Elevate your eco-conscious gifting with The Sustainable Way hamper, a thoughtfully curated box designed with sustainability and style in mind. Set inside a reusable wooden slider-lid box, this elegant hamper includes a pair of half‑hammered copper glasses, a coconut-shell candle, two leaf-carved wooden coasters, and two packs of golden almond brittle, all tied together with a greeting card of your choice. Each item is sustainably crafted from natural coconut shell and wood to plant-based brittle, making it perfect for mindful celebrations or eco-friendly gifting.
+
+Whether it’s to delight at Diwali, to honor someone’s green lifestyle, or to serve as a standout corporate or personal gift, this hamper combines rustic aesthetics with premium packaging. Ideal for recipients who value sustainability without compromising on elegance. Celebrate consciously and beautifully with a gift that’s good for them and kind to the planet.
+`,
+},
+{
+  id: "Chef’s Essentials",
+  name: "Chef’s Essentials",
+  image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762861558/gift-for-chef_yjig61.webp",
+  images: [
+    "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762861558/gift-for-chef_yjig61.webp",
+    "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762861558/Akshita_sShoot-23_hugazr.webp",
+    "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762861558/IMG_5659_720x_53d5d698-01b2-43b3-a000-5b0c88a8adaa_du8isp.webp",
+    "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762861557/DSC03336_720x_4820ed35-b332-4def-8039-a28a03922a23_gqqgva.webp",
+    "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762861557/20210822-IMG_2803_720x_75a21a2f-c1a5-4232-b6b8-cefcd0661ac8_f20a1t.webp"
+  ],
+  price: 2990,
+  originalPrice: 3290,
+  category: "promotional-gifts",
+  subCategory: "eco",
+  description: `Treat the special women in your life with a delightful culinary experience with our Chef’s Essentials gift hamper, specially curated for the kitchen enthusiast in her. 
+  Combining practicality with style and sentiment, this gift hamper for ladies is the perfect way to celebrate their love of cooking. 
+  For the amazing chefs who make delicious and sumptuous recipes with love as their secret ingredient, this gift hamper is one of the unique gifts for women. 
+  Beautifully packed in an eco-friendly reusable gift box the premium products and cooking equipment encourage experimentation and enhance culinary adventures. 
+  The Chef's Essentials Gift Hamper is the perfect way to spread the joy of delicious food. 
+  You can add a personalized message to convey your love and appreciation to the chef, making this gift even more memorable. 
+`,
+},
+
+ {
+    id: "Rasatva Ruvaa - Nirvana | Coffee Supreme | Gourmet Coffee Gift Hamper | Premium Corporate Gift for Employees | Anniversary, Festive Gift for Friends & Family",
+    name: "Rasatva Ruvaa - Nirvana | Coffee Supreme | Gourmet Coffee Gift Hamper | Premium Corporate Gift for Employees | Anniversary, Festive Gift for Friends & Family",
+    image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762862366/91-W9eTKZnL._SX569__mwcjk2.png",
+    images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762862366/91-W9eTKZnL._SX569__mwcjk2.png",
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762862293/81jFlp9iC4L._SX679__e8dtap.jpg",
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762862295/Gemini_Generated_Image_uefi0yuefi0yuefi_xgqxwf.png",
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762862294/Gemini_Generated_Image_6jl61h6jl61h6jl6_bqkpah.png"
+    ],
+    price: 2500,
     category: "promotional-gifts",
     subCategory: "premium",
     description:
       "Deluxe premium collection with assorted dryfruits and chocolates.",
   },
+{
+    id: "Good Wishes Sustainable Hamper",
+    name: "Good Wishes Sustainable Hamper",
+    image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762864167/good-wishes-sustainable-hamper_2_tteec7.png",
+    images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762864167/good-wishes-sustainable-hamper_2_tteec7.png",
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762863632/good-wishes-sustainable-hamper_1_sqaho0.webp",
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762863631/good-wishes-sustainable-hamper_3_dqueop.webp"
+    ],
+    price: 2499,
+    category: "promotional-gifts",
+    subCategory: "premium",
+    description:
+      `This elegant gift box is the perfect way to show your loved ones that you care about the environment This beautiful and thoughtful gift comes with personalised text on a reusable pinewood box and is filled with sustainable goodies All of the sustainable items are presented in a reusable box making it an ecofriendly and beautiful gift for any occasion
+Product Details
 
+Copper Glass Set of 2
+Love and Light Coaster Set of 2
+Mix Dry fruits Jar 100 gms
+Copper Planter 3 x 7.62 x 10.16 cms
+Green Potpourri in Jute Potli
+Reusable Personalised Pinewood Box 10 x 25.40 x 114.30 cms
+Net Quantity 1 Set
+Dimensions 27x27x14 cm
+Weight Approx 1 Kg
+Country of Origin India
+Vegetarian`,
+  },
+  {
+    id: "Shaadmaan Luxury Gift Box",
+    name: "Shaadmaan Luxury Gift Box",
+    image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762864276/UntitledSession00049_iqirtx.webp",
+    images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762864276/UntitledSession00049_iqirtx.webp",
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762864277/PurpleBird-19thDec202200450_crop_r0hers.webp"
+    ],
+    price: 2700,
+    category: "promotional-gifts",
+    subCategory: "premium",
+    description:
+      "Deluxe premium collection with assorted dryfruits and chocolates.",
+  },
   // PROMO - subCategory: apparel
   {
     id: "promo-apparel-1",
@@ -384,15 +550,21 @@ export const products: Product[] = [
     subCategory: "apparel",
     description: "Premium wearable set for corporate gifting.",
   },
+ 
 
-  // === PROMOTIONAL ITEMS END ===
-
-  // === CORPORATE ITEMS (used by CorporateGifts page) START ===
-  // These product objects were added for the Corporate Gifts page and are grouped
-  // here so you can find and edit them easily. Each has `category: 'corporates'`
-  // and a `subCategory` value used by the corporate page strip.
-
-  // CORPORATE - subCategory: onboarding
+  // PROMO - subCategory: premium
+  {
+    id: "promo-premium-1",
+    name: "Premium Luxury Hamper - A",
+    image: "https://picsum.photos/seed/promo-premium-1/600/400",
+    images: [],
+    price: 2999,
+    originalPrice: 3499,
+    category: "corporates",
+    subCategory: "premium",
+    description: "High-end premium hamper for executive gifting.",
+  },
+  
   {
     id: "corp-onboarding-1",
     name: "Employee Onboarding Kit - Starter",
