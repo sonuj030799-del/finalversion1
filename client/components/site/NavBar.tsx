@@ -40,6 +40,7 @@ export default function NavBar() {
   };
 
   useEffect(() => {
+    // close menus when route changes
     setShopOpen(false);
     setShopPinned(false);
     setOpen(false);
@@ -58,21 +59,21 @@ export default function NavBar() {
             <Menu className="h-5 w-5" />
           </button>
 
-          {/* ✅ Logo + Brand Text Updated */}
-          <div className="flex items-center">
+          <div className="flex items-center gap-1">
             <Link to="/">
               <img
                 src="https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762775745/ChatGPT_Image_Nov_10__2025__04_41_17_PM-removebg-preview_3_uyktig.png"
                 alt="Shree Wraps"
-                className="h-[6rem] w-[6rem] object-contain select-none"
+                className="h-[4.40rem] w-auto select-none"
                 loading="eager"
               />
             </Link>
 
-            {/* Text split on two lines + brand-color */}
-            <Link to="/" className="ml-3 leading-tight text-[#004631]">
-              <span className="font-serif text-3xl block">Shree Wraps</span>
-              <span className="font-serif text-3xl block">   & Gifting</span>
+            <Link to="/" className="font-serif text-2xl tracking-tight">
+              <span className="text-primary">Shree Wraps</span>{" "}
+              <br />
+            
+              <span className="text-primary">& Gifting</span>
             </Link>
           </div>
         </div>
@@ -111,7 +112,7 @@ export default function NavBar() {
         </nav>
       </div>
 
-      {/* ✅ Mobile + Desktop Menus (unchanged) */}
+      {/* mobile menu */}
       {open && (
         <div className="md:hidden border-t border-border bg-white">
           <div className="px-4 py-4">
@@ -123,6 +124,7 @@ export default function NavBar() {
               <button
                 className="w-full flex items-center justify-between py-2 text-base font-medium"
                 onClick={() => setMobileShopOpen(!mobileShopOpen)}
+                aria-expanded={mobileShopOpen}
               >
                 SHOP
                 <ChevronDown className={`w-4 h-4 transition-transform ${mobileShopOpen ? "rotate-180 text-primary" : "text-muted-foreground"}`} />
@@ -160,24 +162,111 @@ export default function NavBar() {
         </div>
       )}
 
-      {/* Desktop SHOP Dropdown */}
+      {/* desktop SHOP dropdown */}
       <div className="hidden md:block border-t border-border bg-white">
         <div className="container mx-auto px-4 relative">
           <div className="flex items-center justify-center gap-12 py-3">
-            <Link to="/" className="text-base font-medium px-4 py-2 hover:text-primary">
+            <Link
+              to="/"
+              className="text-base font-medium px-4 py-2 hover:text-primary"
+            >
               HOME
             </Link>
 
-            {/* SHOP dropdown unchanged */}
-            {/* (rest of mega-menu code stays the same) */}
+            <div>
+              <button
+                onMouseEnter={() => !shopPinned && setShopOpen(true)}
+                onMouseLeave={() => !shopPinned && setShopOpen(false)}
+                onClick={() => {
+                  const next = !shopOpen;
+                  setShopOpen(next);
+                  setShopPinned(next);
+                }}
+                className="flex items-center gap-2 text-base font-semibold px-4 py-2"
+                aria-expanded={shopOpen}
+              >
+                SHOP
+                <ChevronDown
+                  className={`w-4 h-4 transition-transform ${
+                    shopOpen ? "rotate-180 text-primary" : "text-muted-foreground"
+                  }`}
+                />
+              </button>
 
-            <Link to="/bulk-order" className="text-base font-medium px-4 py-2 hover:text-primary">
+              {/* Mega menu dropdown (columns) */}
+              <div
+                onMouseEnter={() => !shopPinned && setShopOpen(true)}
+                onMouseLeave={() => !shopPinned && setShopOpen(false)}
+                className={`${shopOpen ? "block" : "hidden"} absolute inset-x-0 top-full mt-3 z-50 flex justify-center`}
+              >
+                <div className="w-[98vw] max-w-[1600px] bg-white border border-border rounded-md shadow-lg p-14">
+                  <div className="grid grid-cols-5 gap-x-12 items-start">
+                    {categories.map((c) => {
+                      const path = c.path || "";
+                      let catKey = path.replace(/\//g, "");
+                      if (path.includes("promotional")) catKey = "promotional-gifts";
+                      else if (path.includes("corporate")) catKey = "corporates";
+                      else if (path.includes("occasional")) catKey = "occasional-gifts";
+
+                      const subcats = Array.from(
+                        new Set(
+                          catalogProducts
+                            .filter((p) => p.category === catKey)
+                            .map((p) => p.subCategory)
+                            .filter(Boolean)
+                        )
+                      ).slice(0, 3);
+
+                      const labelize = (s?: string) =>
+                        s ? s.replace(/-/g, " ").replace(/\b\w/g, (ch) => ch.toUpperCase()) : "";
+
+                      return (
+                        <div key={c.name} className="px-6">
+                          <Link to={c.path} className="block text-base tracking-widest uppercase font-semibold text-gray-900 pb-6 border-b border-gray-100">
+                            {c.name}
+                          </Link>
+
+                          <div className="mt-6 space-y-4">
+                            {subcats.map((sc) => (
+                              <Link
+                                key={String(sc)}
+                                to={`${c.path}?sub=${encodeURIComponent(String(sc) || "")}`}
+                                className="block text-lg tracking-wide uppercase text-gray-600 hover:text-primary transition-colors py-2"
+                              >
+                                {labelize(String(sc))}
+                              </Link>
+                            ))}
+                          </div>
+
+                          <div className="mt-8">
+                            <Link to={c.path} className="inline-block px-8 py-3 text-base bg-primary text-white rounded-md hover:bg-primary/90 transition-colors">
+                              View All
+                            </Link>
+                          </div>
+                        </div>
+                      );
+                    })}
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <Link
+              to="/bulk-order"
+              className="text-base font-medium px-4 py-2 hover:text-primary"
+            >
               CUSTOM ORDER
             </Link>
-            <Link to="/about" className="text-base font-medium px-4 py-2 hover:text-primary">
+            <Link
+              to="/about"
+              className="text-base font-medium px-4 py-2 hover:text-primary"
+            >
               ABOUT
             </Link>
-            <Link to="/reviews" className="text-base font-medium px-4 py-2 hover:text-primary">
+            <Link
+              to="/reviews"
+              className="text-base font-medium px-4 py-2 hover:text-primary"
+            >
               REVIEWS
             </Link>
           </div>
