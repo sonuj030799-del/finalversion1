@@ -526,7 +526,37 @@ Vegetarian`,
     category: "promotional-gifts",
     subCategory: "premium",
     description:
-      "Deluxe premium collection with assorted dryfruits and chocolates.",
+     `If you or your gift recipient are anything like us, candles will make them happy. 
+     Those whose love language is smell, know the sheer pleasure associated with a fragrant candle. Especially, when the fragrance is of rose - the ultimate symbol of love, passion and romance.
+      Double the joy of gifting, with the Shaadmaan, curation with a pair of silver plated Baagh rose candles. Cheers to new beginnings!`,
+  },
+  {
+    id: "Tea Candle Holder",
+    name: "Tea Candle Holder",
+    image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762938753/CSH041_i77c6h.webp",
+    images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762938753/CSH041_i77c6h.webp",
+      
+    ],
+    price: 2499,
+    category: "promotional-gifts",
+    subCategory: "premium",
+    description:
+     `Elevate your gifting game with our hamper featuring a set of 2 tea light holders. 
+     These beautifully handcrafted holders, made from brass and silver-plated with a lacquer finish, add a touch of elegance and warmth to any setting.`,
+  },
+  {
+    id: "Premium Passport Holder",
+    name: "Premium Passport Holder",
+    image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762939516/CSSD219_fp1aaz.png",
+    images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762939516/CSSD219_fp1aaz.png",
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762939296/CSSD219A_ztllrk.webp"
+      
+    ],
+    price: 5400,
+    category: "promotional-gifts",
+    subCategory: "premium",
+    description:
+     `Elevate your travel essentials with our luxurious passport holder, crafted from high-quality brass, silver-plated, and lacquered for durability. This sleek and sophisticated design offers both style and protection for your passport. Its compact size ensures it fits perfectly in any travel bag. Ideal for discerning travelers who value elegance and practicality. Travel in style with this exquisite passport holder.`,
   },
   // PROMO - subCategory: apparel
   {
