@@ -558,6 +558,48 @@ Vegetarian`,
     description:
      `Elevate your travel essentials with our luxurious passport holder, crafted from high-quality brass, silver-plated, and lacquered for durability. This sleek and sophisticated design offers both style and protection for your passport. Its compact size ensures it fits perfectly in any travel bag. Ideal for discerning travelers who value elegance and practicality. Travel in style with this exquisite passport holder.`,
   },
+  {
+    id: "Silver Bowl",
+    name: "Silver Bowl",
+    image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762940929/Silver_Bowl_crcvzg.webp",
+    images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762940929/Silver_Bowl_crcvzg.webp"
+      
+    ],
+    price: 4950,
+    category: "promotional-gifts",
+    subCategory: "premium",
+    description:
+     `One of our subtle collections, the decorated bowl may be used for holding potpourri or chocolates. 
+     Completely handcrafted, made in brass and lacquered, it is a beautiful piece to own or gift!`,
+  },
+  {
+    id: "Decorative Bowl Set",
+    name: "Decorative Bowl Set",
+    image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762941096/Bowl_Set_hzo63b.webp",
+    images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762941096/Bowl_Set_hzo63b.webp"
+      
+    ],
+    price: 9999,
+    category: "promotional-gifts",
+    subCategory: "premium",
+    description:
+     `Make every day festive by the way you serve. 
+     Our decorated bowl set comes in set of three and is completely handcrafted, silver-plated and lacquered. Add potpourri or dry eatables and keep it for personal use or gifting.`,
+  },
+  {
+    id: "Silver Plated Plate",
+    name: "Silver Plated Plate",
+    image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762941296/CSTW059---POOJA-THALI_oyx5up.webp",
+    images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762941296/CSTW059---POOJA-THALI_oyx5up.webp"
+      
+    ],
+    price: 7499,
+    category: "promotional-gifts",
+    subCategory: "premium",
+    description:
+     `Make every day festive by the way you serve. 
+     Our decorated bowl set comes in set of three and is completely handcrafted, silver-plated and lacquered. Add potpourri or dry eatables and keep it for personal use or gifting.`,
+  },
   // PROMO - subCategory: apparel
   {
     id: "promo-apparel-1",
@@ -783,26 +825,205 @@ Vegetarian`,
 
   // OCCASIONAL - subCategory: wedding
   {
-    id: "occ-wedding-1",
-    name: "Wedding Gourmet Hamper",
-    image: "https://picsum.photos/seed/occ-wedding-1/600/400",
-    images: [],
-    price: 2499,
+    id: "Open Tray Square Gift Hamper",
+    name: "Open Tray Square Gift Hamper",
+    image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762951306/OpenTraySquareGiftHamper_h2yb2d.webp",
+    images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762951306/OpenTraySquareGiftHamper_h2yb2d.webp"],
+    price: 800,
     category: "occasional-gifts",
     subCategory: "wedding",
     description:
-      "A curated wedding hamper with sweets, dry fruits and a congratulatory card.",
+        `Open Tray Square Gift Hamper includes:
+
+Lays
+Kurkure
+Real Juice
+Coca Cola Can
+Britannia Cake
+Doritos
+Cadbury Cookies
+Paper Boat Aamras
+Metal Basket
+Floral Decor`
   },
   {
-    id: "occ-wedding-2",
-    name: "Wedding Celebration Box",
-    image: "https://picsum.photos/seed/occ-wedding-2/600/400",
-    images: [],
-    price: 2999,
+    id: "Stripes Jute Bag Room Hamper",
+    name: "Stripes Jute Bag Room Hamper",
+    image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762951305/Eco-friendly_Rakhi_delight_bag_for_sister_ta0lou.webp",
+    images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762951305/Eco-friendly_Rakhi_delight_bag_for_sister_ta0lou.webp"],
+    price: 630,
     category: "occasional-gifts",
     subCategory: "wedding",
-    description: "Premium wedding hamper with gourmet treats and keepsakes.",
+    description: `Choco Parlour Room Hamper includes :
+
+Lays
+Kurkure
+Real Juice
+Coca Cola Can
+Britannia Cake
+Doritos
+Cadbury Cookies
+Paper Boat Aamras
+Stripes Jute Bag`
   },
+  {
+    id: "Wedding Serenity Hamper",
+    name: "Wedding Serenity Hamper",
+    image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762951304/IMG_9424_1_srsk9u.webp",
+    images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762951304/IMG_9424_1_srsk9u.webp"],
+    price: 850,
+    category: "occasional-gifts",
+    subCategory: "wedding",
+    description: `Wedding Room Hamper includes:
+
+Lays Chips
+Kurkure
+Real Juice
+Coca Cola Can
+Cake 
+Doritos
+Cadbury Cookies
+Bhujia
+Metal Jute Basket - 12 x 6 x 6 inches
+Net decoration
+Please mention any name personalisation or customisation requirement while checking out. For any other queries drop us a message on Whatsapp, link can be found on the bottom right corner.
+
+Gifting Recommendation:
+
+Immerse your guests in an atmosphere of opulence with our hotel-themed wedding room hampers. From sumptuous bed linens to carefully curated amenities, each item is selected to enhance the comfort and style of their stay.
+
+Why is Wedding Room Hamper the best wedding gift for your guests?
+
+Transform your wedding venue into a haven of luxury and warmth for your guests with our Wedding Room Hampers. Elevate their experience, make them feel truly cherished, and set the stage for unforgettable moments during your joyous celebration. Because every guest deserves to be a part of a love story as beautiful as yours.`
+  },
+  {
+    id: "Snack Time Bliss Basket hamper",
+    name: "Snack Time Bliss Basket hamper",
+    image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762951302/SnackTimeBlissBaskethamper_oamw7t.webp",
+    images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762951302/SnackTimeBlissBaskethamper_oamw7t.webp"],
+    price: 780,
+    category: "occasional-gifts",
+    subCategory: "wedding",
+    description: `Wedding Room Hamper includes:
+
+Lays
+Kurkure
+Real Juice
+Coca Cola Can
+Britannia Cake
+Doritos
+Cadbury Cookies
+Paper Boat Aamras
+Organza Festive Tray`
+  },
+  {
+    id: "Gourmet Room Gift Hamper",
+    name: "Gourmet Room Gift Hamper",
+    image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762951301/GourmetRoomGiftHamper_sb42gk.webp",
+    images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762951301/GourmetRoomGiftHamper_sb42gk.webp"],
+    price: 830,
+    category: "occasional-gifts",
+    subCategory: "wedding",
+    description: `A delightful blend of treats, perfect for any occasion! This thoughtfully curated hamper comes packed with everyone’s favorite snacks and beverages, making it an instant crowd-pleaser.
+
+Inside the Hamper:
+🍟 Lays Chips
+🔥 Kurkure
+🧃 Real Fruit Juice
+🥤 Coca-Cola Can
+🍰 Britannia Cake
+🌮 Doritos
+🍪 Cadbury Cookies
+🥭 Paper Boat Aamras
+
+Beautifully presented in a premium transparent gift bag, this hamper is the perfect balance of taste, style, and joy — ideal for gifting or indulgence!`
+  },
+  {
+    id: "Snack & Sip Delight Box",
+    name: "Snack & Sip Delight Box",
+    image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762951300/SnackSensationsRoomGiftHampers_jdgh5j.webp",
+    images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762951300/SnackSensationsRoomGiftHampers_jdgh5j.webp"],
+    price: 720,
+    category: "occasional-gifts",
+    subCategory: "wedding",
+    description: `delightful hamper curated to bring joy, flavor, and festivity to any room! Bursting with everyone’s favorite snacks and beautifully decorated, this hamper is perfect for welcoming guests, gifting, or celebrating special occasions.
+
+✨ What’s Inside:
+🍟 Lays Chips
+🔥 Kurkure
+🧃 Real Juice
+🥤 Coca-Cola Can
+🍰 Britannia Cake
+🌮 Doritos
+🍪 Cadbury Cookies
+🥭 Paper Boat Aamras
+
+Beautifully arranged on a Festive Tray, adorned with elegant Net Wrapping and Floral Décor, the Snack Sensations Room Gift Hamper is a perfect blend of taste, presentation, and celebration.`
+  },
+  {
+    id: "The Bloom & Bliss Hamper",
+    name: "The Bloom & Bliss Hamper",
+    image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762951298/SnackDelighthamper_lkaid2.webp",
+    images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762951298/SnackDelighthamper_lkaid2.webp"],
+    price: 700,
+    category: "occasional-gifts",
+    subCategory: "wedding",
+    description: `A perfect treat for every occasion, the Snack Delight Hamper is crafted to bring smiles, flavor, and freshness to your celebrations. Thoughtfully curated with everyone’s favorite snacks and beverages, it’s ideal for welcoming guests, gifting, or adding a touch of joy to any moment.
+
+✨ What’s Inside:
+🍟 Lays Chips
+🔥 Kurkure
+🧃 Real Juice
+🥤 Coca-Cola Can
+🍰 Britannia Cake
+🌮 Doritos
+🍪 Cadbury Cookies
+🥭 Paper Boat Aamras
+
+Packed in a beautiful printed jute bag, this hamper blends taste with style — a perfect combination of delicious indulgence and elegant presentation.`
+  },
+  {
+    id: "The Luxe Snack Affair",
+    name: "The Luxe Snack Affair",
+    image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762951297/SensationalGourmetSnacksRoomGiftHamper_hlkcdn.webp",
+    images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762951297/SensationalGourmetSnacksRoomGiftHamper_hlkcdn.webp"],
+    price: 820,
+    category: "occasional-gifts",
+    subCategory: "wedding",
+    description: `A tastefully curated hamper designed to add joy, flavor, and sophistication to every occasion! The Sensational Gourmet Snacks Hamper is filled with everyone’s favorite treats, making it an ideal choice for festive gifting, hotel welcomes, or special celebrations.
+
+✨ What’s Inside:
+🍟 Lays Chips
+🔥 Kurkure
+🧃 Real Juice
+🥤 Coca-Cola Can
+🍰 Britannia Cake
+🌮 Doritos
+🍪 Cadbury Cookies
+🥭 Paper Boat Aamras
+
+Beautifully presented in an elegant Metal Basket adorned with Floral Décor, this hamper perfectly blends taste, luxury, and charm — creating a delightful gifting experience that leaves a lasting impression.`
+ },
+ {
+    id: "The Signature Welcome Basket",
+    name: "The Signature Welcome Basket",
+    image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762951296/In-RoomSnackHamper_h3z7a8.webp",
+    images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762951296/In-RoomSnackHamper_h3z7a8.webp"],
+    price: 420,
+    category: "occasional-gifts",
+    subCategory: "wedding",
+    description: `A warm and delightful gesture for any occasion, the Gourmet Welcome Snack Hamper is thoughtfully curated to bring comfort, flavor, and festivity to every guest experience. Perfect for hotel room welcomes, gifting, or corporate hospitality, it’s a tasteful blend of indulgence and charm.
+
+✨ What’s Inside:
+🍟 Lays Chips
+🔥 Kurkure
+🧃 Frooti
+🍰 Britannia Cake
+🍪 Cadbury Cookies
+🍫 Munch
+🌀 Orbit
+
+Elegantly packed in a Festive Paper Bag with Ribbon Decoration, this hamper combines simplicity and sophistication — making it the perfect treat to refresh, surprise, and delight.`},
 
   // OCCASIONAL - subCategory: engagement
   {
@@ -1854,6 +2075,438 @@ Vegetarian`,
     subCategory: "all-age-inclusive",
     description: "Premium inclusive hamper with curated items.",
   },
+   {
+    id: "The Luxury Family Feast Hamper",
+    name: "The Luxury Family Feast Hamper",
+    image: "https://i.ibb.co/0psvzhyJ/The-Family-Feast-Collections.png",
+    price: 3599,
+    originalPrice: 3999,
+    category: "festival-gifts",
+    subCategory: "diwali-gifts",
+    description: `• Top & Bottom Super Luxury Box
+• One Jar of Besan Laddu
+• One Jar of Dryfruits Laddu
+• Three Jars of Dried Fruits
+• Two Jars of Potato Wafers
+• One Box of Chocolate
+• Lord Ganesha and Lakshmi Idol (Brass/Metal)
+• Decorative Diya - 2 pcs
+• Sweets Design Candle (Optional)
+• Copper Water Bottle
+• Premium Greeting Card
+• Lotus Wall Hangings - 2 pcs`
+  },
+  {
+    id: "The Jute Blessing",
+    name: "The Jute Blessing",
+    image: "https://i.ibb.co/LhZjYccG/The-Jute-Blessing.png",
+    price: 1599,
+    originalPrice: 1867,
+    category: "festival-gifts",
+    subCategory: "diwali-gifts",
+    description: `• Woven Basket
+• Decorative Diyas-5pcs
+• Cracker DEsign Chocolates-10pcs
+• Homemaid Chips-200gms
+• Decorative Flower Glass jar
+• One Box of Chocolate
+• Lotus Flower Wall Hanging
+• Custom Note card
+• Poutpuri
+• Besan Laddu-250gms`
+  },
+  {
+    id: "The Harmony",
+    name: "The Harmony",
+    image: "https://i.ibb.co/Wb8ySyn/image.png",
+    price: 1299,
+    originalPrice: 1499,
+    category: "festival-gifts",
+    subCategory: "diwali-gifts",
+    description: `• Top & Bottom Luxury Box
+• Decorative Diyas-1pcs
+• Assorted Chocolates-10pcs
+• Jar of Crunchy Nuts
+• Rich Cookies
+• Lotus Flower Wall Hanging-2pcs
+• Custom Note card`
+  },
+  {
+    id: "The Excelare",
+    name: "The Excelare",
+    image: "https://i.ibb.co/KjXRLG5v/The-Excelcare.png",
+    price: 1499,
+    originalPrice: 1699,
+    category: "festival-gifts",
+    subCategory: "diwali-gifts",
+    description: `• Top & Bottom Luxury Box
+• Brass Diyas-2pcs
+• Assorted Chocolates
+• Poutpuri
+• Besan Laddu & Chocolates-250gms
+• Custom Note card`
+  },
+  {
+    id: "The Festival of Flavours Box",
+    name: "The Festival of Flavours Box",
+    image: "https://i.ibb.co/jk5g0MQf/The-Festival-of-flovour-Box.png",
+    price: 1199,
+    originalPrice: 1399,
+    category: "festival-gifts",
+    subCategory: "diwali-gifts",
+    description: `• Top & Bottom Luxury Box
+• Golden Candle Holder
+• Assorted Chocolates
+• Poutpuri
+• cashews with jute pouch
+• Almonds with jute pouch
+• Custom Note card
+• Lotus Flower Wall hanging`
+  },
+  {
+    id: "The Tyohaar Treat",
+    name: "The Tyohaar Treat",
+    image: "https://i.ibb.co/twwrChs6/The-Tyohaar-Treet.png",
+    price: 1299,
+    originalPrice: 1499,
+    category: "festival-gifts",
+    subCategory: "diwali-gifts",
+    description: `• Top & Bottom Luxury Box
+• Golden Candle Holder
+• Assorted Chocolates
+• Choco Chips-8pcs
+• Nuts with jute pouch
+• Glass Bottle with jute pouch
+• Custom Note card
+• Lotus Flower Wall hanging`
+  },
+  {
+    id: "The Nutty Affair",
+    name: "The Nutty Affair",
+    image: "https://i.ibb.co/zhN37V7s/The-Nutty-Affair.png",
+    price: 1299,
+    originalPrice: 1499,
+    category: "festival-gifts",
+    subCategory: "diwali-gifts",
+    description: `• Top & Bottom Luxury Box
+• Jar of Cashews
+• Jar of Assorted Chocolates
+• Jar of Raisins
+• Rich Cookies
+• Diya & Jyoti
+• Custom Note card`
+  },
+  {
+    id: "The Global Tech",
+    name: "The Global Tech",
+    image: "https://i.ibb.co/gM0qwzp8/Global-Tech.png",
+    price: 1299,
+    originalPrice: 1499,
+    category: "festival-gifts",
+    subCategory: "diwali-gifts",
+    description: `• Top & Bottom Luxury Box
+• Jute bag of Cashews
+• Jute bag of Pistachio
+• Jute bag of Almonds
+• Assorted Chocolates- 6pcs
+• Choco Chips Cookies-8pcs
+• Teracotta Diya - 2pcs
+• Custom Note card`
+  },
+  {
+    id: "Kongsberg",
+    name: "Kongsberg",
+    image: "https://i.ibb.co/5xMTzLDP/Koonsberg.png",
+    price: 1199,
+    originalPrice: 1399,
+    category: "festival-gifts",
+    subCategory: "diwali-gifts",
+    description: `• Top & Bottom Luxury Box
+• Jute bag of Almonds
+• Jute bag of Cashews
+• Phool Dhoop
+• Wooden Block Diya
+• Lotus Flower Wall hanging-2pcs
+• Flower wax candles
+• Custom Note card`
+  },
+  {
+    id: "A Sweet Diwali",
+    name: "A Sweet Diwali",
+    image: "https://i.ibb.co/k6zDkSFX/A-sweet-Diwali.png",
+    price: 1399,
+    originalPrice: 1599,
+    category: "festival-gifts",
+    subCategory: "diwali-gifts",
+    description: `• Top & Bottom Luxury Box
+• Jar of Cashews
+• Jar of Pistachio
+• Jar of Almonds
+• Jar of Raisins
+• Assorted Chocolates- 15pcs
+• Custom Note card`
+  },
+  {
+    id: "The Festive Edit",
+    name: "The Festive Edit",
+    image: "https://i.ibb.co/PGYZW02d/The-Festive-Edit.png",
+    price: 1199,
+    originalPrice: 1499,
+    category: "festival-gifts",
+    subCategory: "diwali-gifts",
+    description: `• Top & Bottom Luxury Box
+• Jar of Crunchy Nuts
+• Copper Bottle - 500ml
+• Besan Laddu-50gms
+• Lotus Flower Wall hanging - 2pcs
+• Decorative Diya / Scented Candle`
+  },
+  {
+    id: "Homelane",
+    name: "Homelane",
+    image: "https://i.ibb.co/wNFNPvR1/Homelane.png",
+    price: 920,
+    originalPrice: 1299,
+    category: "festival-gifts",
+    subCategory: "diwali-gifts",
+    description: `• Top & Bottom Luxury Box
+• Terracotta Diya - 2pcs
+• Jute bag of Almonds
+• Besan Laddu-50gms
+• Lotus Flower Wall hanging - 2pcs
+• Assorted Chocolates- 6pcs
+• Decorative Diya / Scented Candle`
+  },
+  {
+    id: "The Flavour & Fastivity",
+    name: "The Flavour & Fastivity",
+    image: "https://i.ibb.co/rGMYJ7PS/The-Flavour-Fastive.jpg",
+    price: 899,
+    originalPrice: 1299,
+    category: "festival-gifts",
+    subCategory: "diwali-gifts",
+    description: `• Top & Bottom Luxury Box
+• Crunchy nuts
+• Golden Candle holder
+• Besan Laddu-50gms
+• Lotus Flower Wall hanging - 2pcs
+• Assorted Chocolates
+• Custom Note Card
+• Decorative Diya / Scented Candle`
+  },
+  {
+    id: "Diwali Dhamaka",
+    name: "Diwali Dhamaka",
+    image: "https://i.ibb.co/d4bDLG6r/diwali-dham-AKA.webp",
+    price: 879,
+    originalPrice: 1199,
+    category: "festival-gifts",
+    subCategory: "diwali-gifts",
+    description: `• Top & Bottom Luxury Box
+• Phool Dhoop
+• A Metal Diya Holder
+• Lotus Flower Wall hanging - 2pcs
+• Assorted Dry Fruits- 3 jars
+• Custom Note Card`
+  },
+  {
+    id: "The Scrumptious Munch box",
+    name: "The Scrumptious Munch box",
+    image: "https://i.ibb.co/G4fhN6bW/scumtions-munch-box.png",
+    price: 1399,
+    originalPrice: 1799,
+    category: "festival-gifts",
+    subCategory: "diwali-gifts",
+    description: `• Top & Bottom Luxury Box
+• Golden Candle Holder
+• Assorted Chocolates-6pcs
+• Choco Chips-8pcs
+• Poutpuri
+• cashews with jute pouch
+• Almonds with jute pouch
+• Pistachios with jute pouch
+• Raisins with jute pouch
+• Custom Note card
+• Decorated Diya/Scented Candles`
+  },
+  {
+    id: "The Gratitude Box",
+    name: "The Gratitude Box",
+    image: "https://i.ibb.co/Y4cqhgTC/DSC09388-800x.webp",
+    price: 849,
+    originalPrice: 1100,
+    category: "festival-gifts",
+    subCategory: "diwali-gifts",
+    description: `• Top & Bottom Luxury Box
+• A jute Pouch of Crunchy Nuts
+• Rich Cookies
+• Crispy Waffles Chips
+• Scented Candles
+• Custom Note Card
+• Lotus Flower Wall Hanging- 2pcs`
+  },
+  {
+    id: "Dil of Diwali",
+    name: "Dil of Diwali",
+    image: "https://i.ibb.co/VWb47wKK/Dil-of-Diwali.png",
+    price: 699,
+    originalPrice: 879,
+    category: "festival-gifts",
+    subCategory: "diwali-gifts",
+    description: `• Top & Bottom Luxury Box
+• A jute Pouch of Crunchy Nuts
+• Cookies- 6pcs
+• Cashews - 50gms
+• Raisins - 50gms
+• Assorted Chocolates -
+• Custom Note Card
+• Lotus Flower Wall Hanging- 2pcs`
+  },
+  {
+    id: "Diwali Snacks Box",
+    name: "Diwali Snacks Box",
+    image: "https://i.ibb.co/j96XMCBP/The-Diwali-Snacks-Box.png",
+    price: 599,
+    originalPrice: 679,
+    category: "festival-gifts",
+    subCategory: "diwali-gifts",
+    description: `• Top & Bottom Luxury Box
+• Jar of Cashews
+• Jar of Almonds
+• Jar of Raisins
+• Jar of Pistachios
+• Custom Note Card`
+  },
+  {
+    id: "Rigid Boxes 1",
+    name: "Customise Your Box",
+    image: "https://i.ibb.co/x8fPg8RZ/IMG-20251002-WA0008.jpg",
+    price: 450,
+    originalPrice: 800,
+    category: "festival-gifts",
+    subCategory: "diwali-gifts",
+    description: `We Can Customise it As Per Your Need`
+  },
+  {
+    id: "Rigid Boxes 2",
+    name: "Customise Your Box",
+    image: "https://i.ibb.co/hRqF14C5/IMG-20251002-WA0010.jpg",
+    price: 80,
+    originalPrice: 100,
+    category: "festival-gifts",
+    subCategory: "diwali-gifts",
+    description: `We Can Customise it As Per Your Need`
+  },
+  {
+    id: "Rigid Boxes 3",
+    name: "Customise Your Box",
+    image: "https://i.ibb.co/k2Y01SHj/IMG-20251002-WA0011.jpg",
+    price: 300,
+    originalPrice: 400,
+    category: "festival-gifts",
+    subCategory: "diwali-gifts",
+    description: `We Can Customise it As Per Your Need`
+  },
+  {
+    id: "Rigid Boxes 4",
+    name: "Customise Your Box",
+    image: "https://i.ibb.co/cKwb0CWs/IMG-20251002-WA0012.jpg",
+    price: 400,
+    originalPrice: 600,
+    category: "festival-gifts",
+    subCategory: "diwali-gifts",
+    description: `We Can Customise it As Per Your Need`
+  },
+  {
+    id: "Round Dry Fruits Chocolates",
+    name: "Round Dry Fruits Chocolates -350gms",
+    image: "https://i.ibb.co/yB6YLDNs/IMG-20251001-WA0030.jpg",
+    price: 599,
+    originalPrice: 899,
+    category: "festival-gifts",
+    subCategory: "diwali-gifts"
+  },
+  {
+    id: "Chocolate Bar",
+    name: "Chocolate Bar-350gms (pack of 2)",
+    image: "https://i.ibb.co/HLrJbGDP/Chocolate-bar.jpg",
+    price: 350,
+    originalPrice: 420,
+    category: "festival-gifts",
+    subCategory: "diwali-gifts"
+  },
+  {
+    id: "Exotic Chocolate Bar",
+    name: "Exotic Chocolate Bar",
+    image: "https://i.ibb.co/TqKJYTXF/Exorctic-Chocolate-Bar.jpg",
+    price: 499,
+    originalPrice: 599,
+    category: "festival-gifts",
+    subCategory: "diwali-gifts"
+  },
+  {
+    id: "Premium Homemaid Chocolates",
+    name: "Premium Homemaid Chocolates-24 pcs",
+    image: "https://i.ibb.co/RG040vbb/Premium-Homemaid-Chocolates.jpg",
+    price: 399,
+    originalPrice: 499,
+    category: "festival-gifts",
+    subCategory: "diwali-gifts"
+  },
+  {
+    id: "Exotic Dark Center Chocolates",
+    name: "Exotic Dark Center Chocolates - 100gms",
+    image: "https://i.ibb.co/n870rkt6/IMG-20251001-WA0028.jpg",
+    price: 150,
+    originalPrice: 180,
+    category: "festival-gifts",
+    subCategory: "diwali-gifts"
+  },
+  {
+    id: "Premium Shape Chocolates",
+    name: "Premium Shape Chocolates -30pcs",
+    image: "https://i.ibb.co/sp7krjYr/IMG-20251001-WA0026.jpg",
+    price: 500,
+    originalPrice: 600,
+    category: "festival-gifts",
+    subCategory: "diwali-gifts"
+  },
+  {
+    id: "Heart Shape Chocolates",
+    name: "Heart Shape Chocolates with Cute Notes- 24pcs",
+    image: "https://i.ibb.co/pBgLqmLq/IMG-20251001-WA0022.jpg",
+    price: 500,
+    originalPrice: 600,
+    category: "festival-gifts",
+    subCategory: "diwali-gifts"
+  },
+  {
+    id: "Diwali Crackers Chocolates",
+    name: "Diwali Crackers Chocolates- 10pcs",
+    image: "https://i.ibb.co/TBS5rBCP/Crackers-Chocklates.jpg",
+    price: 300,
+    originalPrice: 600,
+    category: "festival-gifts",
+    subCategory: "diwali-gifts"
+  },
+  {
+    id: "Festival Diwali Box 1",
+    name: "Festival Diwali Box with Crackers Design & Sweets",
+    image: "https://i.ibb.co/sJ1YC31x/IMG-20251001-WA0019.jpg",
+    price: 1199,
+    originalPrice: 1499,
+    category: "festival-gifts",
+    subCategory: "diwali-gifts"
+  },
+  {
+    id: "Festival Diwali Box 2",
+    name: "Festival Diwali Box with Crackers Design,Chocolates, roasted Almonds and Joy",
+    image: "https://i.ibb.co/ccFsKPpR/A-Full-Box-of-Handmade-Chocolates.jpg",
+    price: 2499,
+    originalPrice: 3099,
+    category: "festival-gifts",
+    subCategory: "diwali-gifts"
+  }
 
   // === CHARITY ITEMS END ===
 ];

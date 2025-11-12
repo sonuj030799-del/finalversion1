@@ -5,9 +5,15 @@ import useEmblaCarousel from "embla-carousel-react";
 import { Button } from "@/components/ui/button";
 
 const SLIDES = [
-  "https://i.ibb.co/wh1KY8DS/decorative-diwali-gift-boxes-adorned-with-golden-ribbons-1.jpg",
-  "https://i.ibb.co/rR202pFS/futuristic-macro-shot-bhai-dooj-gifts-zooming-wrappings-glowing-ribbons-blend-tra.jpg",
-  "https://i.ibb.co/0Rw6yjK5/wicker-basket-overflowing-with-carefully-wrapped-presents-set-against-vibrant-turquoise-backdrop-pro.jpg"
+  
+  "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762942823/8_bshkuc.png",
+  "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762942822/9_fpfboj.png",
+  "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762942822/10_p44lla.png",
+  "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762950728/Shree_Wraps_1_pwrz7s.png", 
+  "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762942822/6_ocpbjf.png",
+  "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762942821/1_er3x6y.jpg",
+  "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762942821/4_viiswv.png",
+  "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762942821/2_metavc.jpg"
 ];
 
 export default function Hero() {
@@ -20,15 +26,9 @@ export default function Hero() {
   }, [emblaApi]);
 
   return (
-    <section className="relative h-screen w-full overflow-hidden">
-      {/* Slides */}
-      {/*
-        Embla expects a viewport element with overflow hidden. Adding
-        `overflow-hidden` to the viewport and ensuring each slide is
-        `min-w-full flex-shrink-0` prevents slides from being placed
-        outside the visible area which can make them appear missing.
-      */}
-      <div className="absolute inset-0 overflow-hidden" ref={emblaRef}>
+    <section className="relative w-full flex items-center justify-center bg-white">
+      <div className="w-full mx-auto">
+        <div className="relative overflow-hidden" style={{ height: "550px" }} ref={emblaRef}>
         <div className="flex h-full">
           {SLIDES.map((src, i) => (
             <div key={i} className="relative h-full flex-shrink-0 min-w-full">
@@ -47,9 +47,9 @@ export default function Hero() {
       <div className="absolute inset-0 bg-black/30" aria-hidden="true" />
 
       {/* Content */}
-      <div className="relative z-10 h-full container mx-auto px-4 flex items-center justify-center text-center">
+      <div className="absolute inset-0 z-10 flex items-center justify-center text-center">
         <div className="text-white max-w-3xl">
-          <h1 className="font-serif text-7xl text-center">
+          <h1 className="font-serif text-5xl text-center">
             Wrap Every Moment
             <br />
             With Love 
@@ -90,6 +90,7 @@ export default function Hero() {
       >
         <ChevronRight className="h-5 w-5" />
       </button>
+    </div>
     </section>
   );
 }

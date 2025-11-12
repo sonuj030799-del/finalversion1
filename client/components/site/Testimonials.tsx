@@ -37,11 +37,15 @@ export default function Testimonials() {
     <section className="container mx-auto py-12 md:py-16">
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 items-start">
         {/* Left: big heading */}
-        <div className="lg:col-span-1">
-          <span className="text-sm text-pink-600 uppercase tracking-widest">Testimonials</span>
-          <h2 className="font-great text-[5.5rem] leading-[0.9] mt-3">Happy<br/>
-          <br />Customers!</h2>
-        </div>
+        <div className="w-full lg:w-[25%] text-center lg:text-left">
+              <h2 className="font-great text-[5.5rem] leading-[0.9] text-[#432818] py-1">
+                Happy 
+              </h2>
+              <br />
+              <h2 className="font-great text-[5.5rem] leading-[0.9] text-[#432818]">
+                Cusotmers
+              </h2>
+            </div>
 
         {/* Right: testimonials area */}
         <div className="lg:col-span-2">
