@@ -81,6 +81,9 @@ export default function ProductCard({ product }: { product: Product }) {
       // If user opened in new tab / used modifier keys, don't modify history.
       if ((e as any).ctrlKey || (e as any).metaKey || (e as any).shiftKey || (e as any).altKey) return;
       try {
+        console.debug('ProductCard click', { id: product.id, from: location.pathname + location.search, historyLength: window.history.length, href: window.location.href });
+      } catch (err) {}
+      try {
         // Ensure there's an explicit history entry for the current products page
         // so the browser Back button reliably returns here.
         window.history.pushState({}, '', location.pathname + location.search);

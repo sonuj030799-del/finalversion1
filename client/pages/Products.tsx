@@ -31,14 +31,31 @@ export default function Products() {
   // Rewriting for valid page numbers can replace a history entry and break the Back button.
   useEffect(() => {
     const isInvalidPage = Number.isNaN(pageParam) || pageParam < 1 || pageParam > totalPages;
+    console.debug('Products clamp effect', { pageParam, currentPage, isInvalidPage, locationSearch: location.search, historyLength: window.history.length });
     if (isInvalidPage) {
       const params = new URLSearchParams(location.search);
       params.set("page", String(currentPage));
       // replace: true is appropriate here because we're correcting an invalid URL
+      console.debug('Products clamp navigating (replace) to', `${location.pathname}?${params.toString()}`);
       navigate(`${location.pathname}?${params.toString()}`, { replace: true });
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [pageParam, currentPage, location.pathname, location.search, totalPages]);
+
+  // Scroll to top whenever the current page changes (so user lands at top of list)
+  useEffect(() => {
+    try {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    } catch (err) {
+      // ignore if window is not available
+    }
+  }, [currentPage]);
+
+  // Log mount to aid debugging of history entries
+  useEffect(() => {
+    console.debug('Products mount', { locationSearch: location.search, pageParam, currentPage, historyLength: window.history.length });
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
 
   const title = term
     ? `Search: ${term}`

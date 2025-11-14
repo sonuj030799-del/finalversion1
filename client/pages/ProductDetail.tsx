@@ -39,13 +39,16 @@ export default function ProductDetail() {
   // Ensure there's a products-page history entry so browser Back returns there.
   useEffect(() => {
     const from = (location.state as any)?.from;
+    console.debug('ProductDetail mount', { id, from, historyLength: window.history.length, href: window.location.href });
     if (!from) return;
     try {
       const current = location.pathname + location.search;
+      console.debug('ProductDetail pushing history', { from, current });
       // Push the originating products URL then re-push the current product URL
       // This guarantees a reliable previous entry for the browser Back button.
       window.history.pushState({}, '', from);
       window.history.pushState({}, '', current);
+      console.debug('ProductDetail after push', { historyLength: window.history.length });
     } catch (err) {
       // ignore failures (older browsers / CSP)
     }

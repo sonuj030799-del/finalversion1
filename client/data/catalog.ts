@@ -1247,27 +1247,389 @@ A smart, elegant, and timeless wedding return gift—perfectly blending flavor, 
 
 Thoughtfully curated with vibrant Rajasthani aesthetics, this hamper is perfect for adding joy, culture, and color to any celebration.
 `},
+{
+    id: "Baraat Swagat Broach",
+    name: "Baraat Swagat Broach (Pack of 10)",
+    image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763112596/WhatsAppImage2024-12-03at21.39.12_1_fe7ezf.webp",
+    images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763112596/WhatsAppImage2024-12-03at21.39.12_1_fe7ezf.webp"
+    ],
+    price: 579,
+    category: "occasional-gifts",
+    subCategory: "wedding",
+    description: `Welcome your guests / baraatis with this exquisite kundan broaches and make them feel special. 
+
+comes in a pack of 10
+`},
+{
+    id: "Shri Krishna Broach",
+    name: "Shri Krishna Broach (Pack of 10)",
+    image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763112595/WhatsAppImage2025-08-04at21.47.03_2790ab84-6016-4df5-bef4-ad7f6d25bc8f_mx2cav.webp",
+    images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763112595/WhatsAppImage2025-08-04at21.47.03_2790ab84-6016-4df5-bef4-ad7f6d25bc8f_mx2cav.webp"
+    ],
+    price: 679,
+    category: "occasional-gifts",
+    subCategory: "wedding",
+    description: `Welcome your guests / baraatis with this exquisite kundan broaches and make them feel special. 
+
+comes in a pack of 10
+`},
+{
+    id: "Evil Eye Broach",
+    name: "Evil Eye Broach (Pack of 10)",
+    image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763112594/WhatsAppImage2024-12-03at21.39.03_1_dync88.webp",
+    images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763112594/WhatsAppImage2024-12-03at21.39.03_1_dync88.webp"
+    ],
+    price: 679,
+    category: "occasional-gifts",
+    subCategory: "wedding",
+    description: `Welcome your guests / baraatis with this exquisite kundan broaches and make them feel special. 
+
+comes in a pack of 10
+`},
+{
+    id: "Swagath Mala",
+    name: "Swagath Mala (Pack of 10)",
+    image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763112594/WhatsAppImage2024-12-03at21.38.45_2_wljebp.webp",
+    images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763112594/WhatsAppImage2024-12-03at21.38.45_2_wljebp.webp",
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763112594/WhatsApp_Image_2024-12-03_at_21.39.02_1_b7o0lt.webp",
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763112594/WhatsApp_Image_2024-12-03_at_21.38.46_2_cipr9s.webp"
+    ],
+    price: 879,
+    category: "occasional-gifts",
+    subCategory: "wedding",
+    description: `When your guests are special , there should be something more special to welcoe them. Now Welcome your guests with this uniquely designed swagat mala and make them feel special.
+
+Comes in a pack of 10
+`},
+// {
+//     id: "Swagath Mala with Shrinath ji pendandt",
+//     name: "Swagath Mala with Shrinath ji pendandt(Pack of 10)",
+//     image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763113908/swagat-mala-or-guest-welcome-garland-858_qgobu5.jpg",
+//     images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763113908/swagat-mala-or-guest-welcome-garland-858_qgobu5.jpg",
+//       "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763113284/51tgEWnYG2L_teagys.jpg"
+//     ],
+//     price: 759,
+//     category: "occasional-gifts",
+//     subCategory: "wedding",
+//     description: `Bring a touch of divine elegance to your celebrations with this beautifully crafted Srinath Ji Pendant Pearl Mala, designed especially for Indian wedding rituals and barati welcomes. Featuring classic pearl-style beads and intricate golden detailing, this mala adds charm, tradition, and sophistication to any ceremony.
+
+// ✨ Key Features:
+
+// • Traditional & Elegant Design
+// A stunning multi-strand mala adorned with premium synthetic pearls, highlighted with golden accents and delicate black enamel work for a regal finish.
+
+// • Ceremonial Perfect
+// Ideal for Indian weddings, especially as a graceful welcome accessory for the barati (groom’s procession).
+
+// • Premium Craftsmanship
+// Made with high-quality pearls and metallic embellishments to ensure durability, shine, and a luxurious appearance.
+
+// • Comfortable Length
+// Approximately 45 cm in length, offering a comfortable and versatile fit for guests of all ages.
+
+// • Divine Pendant
+// Features a beautifully detailed Srinath Ji idol pendant, adding spiritual charm and traditional richness to the mala.
+
+// • Color Variants
+// Available in White / Off-White, complementing all ethnic outfits and wedding themes.
+
+// This mala is the perfect blend of cultural significance and elegant craftsmanship—an ideal choice for wedding events, festive occasions, and traditional ceremonies.
+// `},
+{
+    id: "Swagath Mala with kundan stone",
+    name: "Swagath Mala with kundan stone (Pack of 10)",
+    image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763113241/IMG-20231210-WA0549_bzvvya.webp",
+    images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763113241/IMG-20231210-WA0549_bzvvya.webp"
+    ],
+    price: 900,
+    category: "occasional-gifts",
+    subCategory: "wedding",
+    description: `The Baraat Swagat Mala with Kundan Stones is a beautifully crafted welcome accessory, designed with lustrous pearls and premium Kundan embellishments. Perfect for traditional Indian weddings, this mala represents warmth, respect, and the heartfelt bond between the bride’s and groom’s families.
+
+As the baraat arrives at the wedding venue, these malas are ceremoniously placed on the groom’s side guests, symbolizing honor and joy. The blend of pearls and Kundan stones adds a regal touch, making each moment feel grand and memorable.
+
+Ideal for those looking for wedding welcome gifts, barati swagat malas, or traditional gifting options, this elegant mala enhances the cultural charm of your celebration while creating a lasting impression on your guests.
+`},
+{
+    id: "Royal Kundan Satka Charm Keychains",
+    name: "Royal Kundan Satka Charm Keychains",
+    image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763116625/65-rs-per-pc-on-buying-50-pcs-satka-pins-lamansh-designer-kundan-satka-s-keychains-for-ladies-haldi-mehendi-sangeet-favors-for-bridesmaids-in-weddings-31352644567101_1080x_kj0par.webp",
+    images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763116625/65-rs-per-pc-on-buying-50-pcs-satka-pins-lamansh-designer-kundan-satka-s-keychains-for-ladies-haldi-mehendi-sangeet-favors-for-bridesmaids-in-weddings-31352644567101_1080x_kj0par.webp",
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763116625/65-rs-per-pc-on-buying-50-pcs-satka-pins-lamansh-designer-kundan-satka-s-keychains-for-ladies-haldi-mehendi-sangeet-favors-for-bridesmaids-in-weddings-31389537959997_1800x1800_gtihbd.webp"
+    ],
+    price: 1400,
+    category: "occasional-gifts",
+    subCategory: "wedding",
+    description: `Elevate your traditional look with this classic antique designer tassel side Kamarband Chabi Challa Satka, thoughtfully crafted for women, brides, teens, and girls. Lightweight yet stunning, this waist key chain blends heritage charm with contemporary elegance.
+
+✨ Symbolic & Traditional
+
+In Indian culture, gifting keys to the new bride by her mother-in-law signifies trust, responsibility, and the beginning of a new life. This Chabi Challa is designed to honor that tradition beautifully.
+
+✨ Stylish & Functional
+
+Perfect as a waist accessory, it enhances your outfit while serving as a functional key holder. Its intricate antique finish, premium plating, and soft tassel detailing give it the appeal of fine jewelry—durable, skin-friendly, and long-lasting.
+
+✨ Perfect for Special Occasions
+
+Ideal for:
+• Weddings & Bridal Ceremonies
+• Haldi, Mehendi, Sangeet
+• Festivals like Diwali & Rakshabandhan
+• Engagements, Receptions & Family Functions
+• Birthdays, Anniversaries & Gifting Occasions
+
+A truly unique and graceful gift choice for brides, mothers, wives, daughters, sisters, and girlfriends.
+
+✨ Versatile Wear
+
+Pairs beautifully with:
+• Lehengas
+• Sarees
+• Ethnic Dresses
+• All Traditional Outfits
+`},
+{
+    id: "Handmade Earings Set(Groom)",
+    name: "Handmade Earings Set(Groom Side)",
+    image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763117199/CFE2413_D_d5qd3n.webp",
+    images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763117199/CFE2413_D_d5qd3n.webp"
+    ],
+    price: 300,
+    category: "occasional-gifts",
+    subCategory: "wedding",
+    description: `Let your style speak louder than words with our “Dulhe Ki Behen” Green Drop Earrings, designed for women and girls who love to stand out. A perfect blend of glamour and tradition, these earrings are ideal for engagements, weddings, haldi, and mehndi celebrations.
+
+Crafted with meticulous detail, the stunning green and gold combination adds a royal charm to your festive look. Lightweight yet impactful, these drop-and-dangler earrings are made for those who seek something extraordinary. Their secure pierced-back closure ensures all-day comfort, so you can dance, celebrate, and shine without worry.
+
+Part of our exclusive wedding fashion series, these earrings enhance your individuality and bring out your festive radiance. Whether you're searching for the perfect Dulhe Ki Behen accessory or a thoughtful gift for someone special, these earrings are a timeless choice.
+
+Seasonless, stylish, and statement-worthy—our Green Dulhe Ki Behen Earrings will make every moment picture-perfect. Get ready to steal the spotlight and let your elegance take center stage.
+`},
+{
+    id: "Haldi Glow Maangtikka",
+    name: "Haldi Glow Maangtikka (Pack of 10)",
+    image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763117657/IMG_1204-scaled_sj9uxf.jpg",
+    images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763117657/IMG_1204-scaled_sj9uxf.jpg"
+    ],
+    price: 300,
+    category: "occasional-gifts",
+    subCategory: "wedding",
+    description: `Brighten up your pre-wedding celebrations with these stunning yellow floral accessories, handcrafted to add charm and grace to every Haldi and Mehndi ceremony. Designed with delicate artificial roses, buds, and pearl chains, each piece radiates freshness, vibrance, and traditional beauty.
+
+Lightweight, comfortable, and perfect for brides, bridesmaids, and guests, these floral adornments effortlessly enhance any ethnic outfit. Whether used as a maangtikka, bracelet, or hair accessory, they bring the perfect pop of yellow for a joyful, picture-perfect celebration.
+
+Ideal for Haldi, Mehndi, Sangeet, and festive gifting—these floral pieces make every moment feel special and beautifully coordinated.
+`},
+{
+    id: "Utsav Haldi Mehndi Gift Hamper",
+    name: "Utsav Haldi Mehndi Gift Hamper(Pack of 5)",
+    image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763118537/IMG_1152-scaled_tv1xuo.png",
+    images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763118537/IMG_1152-scaled_tv1xuo.png",
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763118516/IMG_1153-scaled_lalbt8.png "
+    ],
+    price: 739,
+    category: "occasional-gifts",
+    subCategory: "wedding",
+    description: `Add a burst of tradition and charm to your accessory collection with this beautifully curated combo. The vibrant pink Bandhani clutch features classic tie-dye patterns in yellow and white, highlighted with a delicate golden lace trim for a festive touch. Lightweight and spacious, it's perfect for carrying your essentials during weddings, mehndi, haldi, or casual ethnic outings.
+
+Paired with it are stunning handcrafted earrings adorned with pearls, red accents, and intricate metallic floral motifs. These studs beautifully complement the clutch, making the set an ideal gift or a stylish accessory bundle for any traditional occasion.
+
+Stylish • Traditional • Perfect for Gifting
+`},
+{
+    id: "Cover Pouch",
+    name: "Cover Pouch(Pack of 10)",
+    image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763120167/IMG-3161_my0tty.webp",
+    images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763120167/IMG-3161_my0tty.webp",
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763120189/IMG-3164_ou0nvd.webp "
+    ],
+    price: 439,
+    category: "occasional-gifts",
+    subCategory: "wedding",
+    description: `right, vibrant, and beautifully traditional — these Bandhani print clutches are the perfect blend of style and culture. Available in multiple rich colors like yellow, pink, blue, orange, red, and green, each clutch is crafted with traditional Bandhej patterns and finished with a neat flap design.
+
+Lightweight and spacious, they are ideal for weddings, mehndi functions, haldi giveaways, festive hampers, ladies’ kitty parties, and return gifts. Their colorful appeal makes them a favorite for ethnic events and gifting.
+
+• Premium Bandhani print fabric
+• Available in assorted vibrant colors
+• Perfect for gifting & bulk orders
+• Stylish, lightweight & easy to carry
+`},
+{
+    id: "Bride & Bridesmaid Floral Hand Accessory Set",
+    name: "Bride & Bridesmaid Floral Hand Accessory Set(Pack of 10)",
+    image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763120444/1C0029F7-A6E6-434A-BCB8-1E93EEE1C92F_tjbpvk.webp",
+    images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763120444/1C0029F7-A6E6-434A-BCB8-1E93EEE1C92F_tjbpvk.webp",
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763120444/0588E4F4-83A2-4307-BA1E-178EB33E93CE_t0pqll.webp",
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763120443/1C0E51A7-39D9-43CA-AE20-73482CFA12BB_whmv9j.webp",
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763120440/B79A613C-38C8-432B-A302-5E4DC36BEEC7_d67mlc.webp"
+    ],
+    price: 1439,
+    category: "occasional-gifts",
+    subCategory: "wedding",
+    description: `Crafted with stunning artificial flowers and pearl detailing, this hand accessory set adds a graceful statement to ethnic wear.
+     The vibrant colors make it ideal for group functions, bridesmaid coordination, and themed celebrations.
+`},
+
+
   // OCCASIONAL - subCategory: engagement
   {
-    id: "occ-engagement-1",
-    name: "Engagement Celebration Box ",
-    image: "https://picsum.photos/seed/occ-engagement-1/600/400",
-    images: [],
-    price: 1799,
+    id: "Handcrafted Multicolor Pichwai Pot with Cow Motifs",
+    name: "Handcrafted Multicolor Pichwai Pot with Cow Motifs",
+    image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763115097/Return_Gifts_Available_at_very_Reasonable_prices_For_more_information_contact_us9149111034_6_kfzofp.webp",
+    images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763115097/Return_Gifts_Available_at_very_Reasonable_prices_For_more_information_contact_us9149111034_6_kfzofp.webp",
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763115099/Return_Gifts_Available_at_very_Reasonable_prices_For_more_information_contact_us9149111034_1_eq1kgc.webp",
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763115097/Return_Gifts_Available_at_very_Reasonable_prices_For_more_information_contact_us9149111034_7_adilgo.webp",
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763115097/Return_Gifts_Available_at_very_Reasonable_prices_For_more_information_contact_us9149111034_5_fzy059.webp",
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763115097/Return_Gifts_Available_at_very_Reasonable_prices_For_more_information_contact_us9149111034_6_kfzofp.webp"
+    ],
+    price: 1499,
     category: "occasional-gifts",
     subCategory: "engagement",
-    description: "Elegant snacks & keepsakes box for engagement parties.",
+    description: `This vibrant Cow-Themed Serving Set adds a touch of tradition and color to any home. 
+    Featuring a beautifully printed tray with matching airtight jars, it’s perfect for gifting during weddings, festivals, or housewarmings. Elegant, durable, and eye-catching—an ideal choice for thoughtful and functional gifting.`,
+  },
+  
+  {
+    id: "Silver-Plated Tortoise Decorative Plate Set",
+      name: "Silver-Plated Tortoise Decorative Plate Set",
+      image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763115958/Return_Gifts_Available_at_very_Reasonable_prices_For_more_information_contact_us9149111034_8_a2lxb3.webp",
+      images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763115958/Return_Gifts_Available_at_very_Reasonable_prices_For_more_information_contact_us9149111034_8_a2lxb3.webp",
+      
+    ],
+    price: 1999,
+    category: "occasional-gifts",
+    subCategory: "engagement",
+    description: `This beautifully crafted silver-plated tortoise with an intricately designed plate comes in a luxurious velvet box, symbolizing longevity, prosperity, and good fortune. Ideal for wedding return gifts, housewarmings, and festive gifting, it blends tradition with elegance—making it a meaningful keepsake your guests will truly cherish.`,
   },
   {
-    id: "occ-engagement-2",
-    name: "Engagement Keepsake Hamper",
-    image: "https://picsum.photos/seed/occ-engagement-2/600/400",
-    images: [],
+    id: "Silver Leaf Embellished Decorative Bowl Set",
+      name: "Silver Leaf Embellished Decorative Bowl Set",
+      image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763116235/Return_Gifts_Available_at_very_Reasonable_prices_For_more_information_contact_us9149111034_9_tjnyih.webp",
+      images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763116235/Return_Gifts_Available_at_very_Reasonable_prices_For_more_information_contact_us9149111034_9_tjnyih.webp",
+      
+    ],
+    price: 1699,
+    category: "occasional-gifts",
+    subCategory: "engagement",
+    description: `This exquisite Silver Leaf Embellished Bowl Set features two premium metal bowls adorned with intricate leaf motifs and accented with elegant green beads.
+     Presented in a luxurious velvet box, it makes a stunning gift for weddings, housewarmings, festivals, or corporate occasions.
+     A perfect blend of modern elegance and artistic craftsmanship.`,
+  },
+  
+  {
+    id: "Swastik Brass Diya with Velvet Gift Box",
+    name: "Swastik Brass Diya with Velvet Gift Box",
+    image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763119581/Return_Gifts_Available_at_very_Reasonable_prices_For_more_information_contact_us9149111034_11_ukx2vo.webp",
+    images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763119581/Return_Gifts_Available_at_very_Reasonable_prices_For_more_information_contact_us9149111034_11_ukx2vo.webp",
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763119581/Return_Gifts_Available_at_very_Reasonable_prices_For_more_information_contact_us9149111034_11_ukx2vo.webp"
+    ],
     price: 2199,
     category: "occasional-gifts",
     subCategory: "engagement",
-    description: "Keepsake hamper with personalized greeting and treats.",
+    description: `Bring divine energy into your home with this beautifully crafted Swastik Brass Diya. 
+    Designed with engraved golden detailing and a premium steel oil cup, it symbolizes prosperity and positivity. 
+    Packed in a luxurious velvet box, it makes a perfect gift for festivals, pooja rituals, weddings, and return favors.`,
   },
+  {
+    id: "Royal Lotus Bowl & Spoon Gift Set",
+    name: "Royal Lotus Bowl & Spoon Gift Set",
+    image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763119916/Return_Gifts_Available_at_very_Reasonable_prices_For_more_information_contact_us9149111034_12_mhbvpn.webp",
+    images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763119916/Return_Gifts_Available_at_very_Reasonable_prices_For_more_information_contact_us9149111034_12_mhbvpn.webp"    ],
+    price: 1199,
+    category: "occasional-gifts",
+    subCategory: "engagement",
+    description: `Elevate your gifting with this luxurious Lotus Bowl & Spoon Set, crafted with stunning gold and silver detailing. 
+    Perfect for serving dry fruits, sweets, or desserts, it comes beautifully packed in a premium red velvet box. 
+    Ideal for weddings, anniversaries, festivals, and return gifts.`,
+  },
+  {
+    id: "Golden Swan Tealight Holder Pair",
+    name: "Golden Swan Tealight Holder Pair (Return Gifts)",
+    image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763121310/Return_Gifts_Available_at_very_Reasonable_prices_For_more_information_contact_us9149111034_13_kttow2.webp",
+    images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763121310/Return_Gifts_Available_at_very_Reasonable_prices_For_more_information_contact_us9149111034_13_kttow2.webp"    ],
+    price: 1399,
+    category: "occasional-gifts",
+    subCategory: "engagement",
+    description: `Bring charm and sophistication to your home décor with this exquisite Golden Swan Tealight Holder Set. 
+    Beautifully crafted with detailed feather engraving and a rich metallic finish, these swan-shaped holders create a warm, soothing glow. 
+    Perfect for festive décor, centerpieces, gifting, and enhancing any elegant corner of your home.`,
+  },
+  {
+    id: "Silver Peacock Diya with Parrot Top – Premium Gift Edition",
+    name: "Silver Peacock Diya with Parrot Top – Premium Gift Edition (Silver Plated)",
+    image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763121577/Return_Gifts_Available_at_very_Reasonable_prices_For_more_information_contact_us9149111034_14_w3xkio.webp",
+    images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763121577/Return_Gifts_Available_at_very_Reasonable_prices_For_more_information_contact_us9149111034_14_w3xkio.webp"    ],
+    price: 2399,
+    category: "occasional-gifts",
+    subCategory: "engagement",
+    description: `This exquisite Silver Peacock Diya features intricate hand-carved detailing and a beautifully crafted parrot figurine on top. 
+    Designed with a sturdy base and elegant finish, it adds a divine touch to any pooja setup. 
+    Packed in a luxurious purple velvet box, it makes a perfect choice for weddings, housewarmings, and festive gifting.`,
+  },
+  {
+    id: "Royal Brass Gift Tray Set – 4 Box Dry Fruit Holder",
+    name: "Royal Brass Gift Tray Set – 4 Box Dry Fruit Holder",
+    image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763122396/Gemini_Generated_Image_j85l5sj85l5sj85l_xaizoi.png",
+    images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763122396/Gemini_Generated_Image_j85l5sj85l5sj85l_xaizoi.png" ,
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763122384/Gemini_Generated_Image_lutnvplutnvplutn_1_ersqe3.png",
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763122383/Gemini_Generated_Image_19046i19046i1904_pd3lup.png"
+       ],
+    price: 1199,
+    category: "occasional-gifts",
+    subCategory: "engagement",
+    description: `Elevate your gifting and serving experience with this Premium Brass Dry Fruit Tray Set, featuring four beautifully crafted bowls placed on an elegant decorative tray. Made with high-quality brass, this set exudes a rich, traditional look that enhances any table setting.
+
+Perfect for serving dry fruits, sweets, mukhwas, snacks, or for festive décor, this gift tray is an ideal choice for weddings, anniversaries, housewarmings, and corporate gifting. Its intricate detailing and luxurious finish make it both functional and aesthetically appealing.
+
+• 4 premium brass bowls with matching tray
+• Perfect for dry fruits, sweets & festive serving
+• Ideal for gifting on all special occasions
+• Durable, elegant & beautifully designed`,
+  },
+  {
+    id: "Premium Brass Storage Jar with Lotus Top",
+    name: "Premium Brass Storage Jar with Lotus Top",
+    image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763122927/Gemini_Generated_Image_ue682rue682rue68_t4ix5e.png",
+    images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763122927/Gemini_Generated_Image_ue682rue682rue68_t4ix5e.png" ,
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763122928/Gemini_Generated_Image_gx95t2gx95t2gx95_gyft4j.png",
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763122928/Gemini_Generated_Image_gx95t2gx95t2gx95_gyft4j.png",
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763122932/Gemini_Generated_Image_9mcvt49mcvt49mcv_ynbew4.png"
+       ],
+    price: 170,
+    category: "occasional-gifts",
+    subCategory: "engagement",
+    description: `Add a touch of elegance to your home décor with this beautifully handcrafted Hammered Brass Lotus Lid Jar. Designed with a polished hammered finish and a stunning lotus-shaped metal lid, this piece combines functionality with artistic charm.
+
+Ideal for storing dry fruits, sweets, mukhwas, jewelry, or small keepsakes, it also makes a luxurious gifting option for weddings, festive hampers, anniversaries, and housewarmings. Its premium look and durable brass construction make it a timeless addition to any space.
+
+• Hammered brass body with floral lotus lid
+• Perfect for storage or decorative use
+• Ideal for gifting & festive hampers
+• Elegant, durable & uniquely handcrafted`,
+  },
+  {
+    id: "Floral Copper Bottle & Glass Set",
+    name: "Floral Copper Bottle & Glass Set",
+    image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763123765/Gemini_Generated_Image_wc3hrbwc3hrbwc3h_cbvxg9.png",
+    images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763123765/Gemini_Generated_Image_wc3hrbwc3hrbwc3h_cbvxg9.png" ,
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763123732/Gemini_Generated_Image_xno1e0xno1e0xno1_qxds6i.png",
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763123696/Gemini_Generated_Image_nv1xu2nv1xu2nv1x_v8kx8n.png"
+       ],
+    price: 1999,
+    category: "occasional-gifts",
+    subCategory: "engagement",
+    description: `Stay hydrated in style with this elegant Floral Copper Water Bottle & Glass Set, beautifully designed with a vibrant rose garden print. The interior is crafted from pure copper, known for its natural health benefits like improved digestion, better metabolism, and purification of drinking water.
+
+The matching copper glasses add to the charm, making it a perfect set for home use, office desks, gifting, and festive occasions. Lightweight, durable, and visually stunning, this set blends tradition with modern aesthetics.
+
+• Pure copper interior with floral printed exterior
+• Includes: 1 Bottle + 2 Matching Glasses
+• Health-friendly, stylish & eco-friendly
+• Ideal for gifting: weddings, festivals, housewarmings`,
+  },
+
 
   // OCCASIONAL - subCategory: anniversary
   {
