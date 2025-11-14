@@ -826,7 +826,7 @@ Vegetarian`,
   // OCCASIONAL - subCategory: wedding
   {
     id: "Open Tray Square Gift Hamper",
-    name: "Open Tray Square Gift Hamper",
+    name: "Open Tray Square Gift Hamper (Room Hamper)",
     image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762951306/OpenTraySquareGiftHamper_h2yb2d.webp",
     images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762951306/OpenTraySquareGiftHamper_h2yb2d.webp"],
     price: 800,
@@ -848,7 +848,7 @@ Floral Decor`
   },
   {
     id: "Stripes Jute Bag Room Hamper",
-    name: "Stripes Jute Bag Room Hamper",
+    name: "Stripes Jute Bag Room Hamper (Room Hamper)",
     image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762951305/Eco-friendly_Rakhi_delight_bag_for_sister_ta0lou.webp",
     images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762951305/Eco-friendly_Rakhi_delight_bag_for_sister_ta0lou.webp"],
     price: 630,
@@ -868,7 +868,7 @@ Stripes Jute Bag`
   },
   {
     id: "Wedding Serenity Hamper",
-    name: "Wedding Serenity Hamper",
+    name: "Wedding Serenity Hamper (Room Hamper)",
     image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762951304/IMG_9424_1_srsk9u.webp",
     images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762951304/IMG_9424_1_srsk9u.webp"],
     price: 850,
@@ -898,7 +898,7 @@ Transform your wedding venue into a haven of luxury and warmth for your guests w
   },
   {
     id: "Snack Time Bliss Basket hamper",
-    name: "Snack Time Bliss Basket hamper",
+    name: "Snack Time Bliss Basket hamper (Room Hamper)",
     image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762951302/SnackTimeBlissBaskethamper_oamw7t.webp",
     images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762951302/SnackTimeBlissBaskethamper_oamw7t.webp"],
     price: 780,
@@ -918,7 +918,7 @@ Organza Festive Tray`
   },
   {
     id: "Gourmet Room Gift Hamper",
-    name: "Gourmet Room Gift Hamper",
+    name: "Gourmet Room Gift Hamper (Room Hamper)",
     image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762951301/GourmetRoomGiftHamper_sb42gk.webp",
     images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762951301/GourmetRoomGiftHamper_sb42gk.webp"],
     price: 830,
@@ -962,7 +962,7 @@ Beautifully arranged on a Festive Tray, adorned with elegant Net Wrapping and Fl
   },
   {
     id: "The Bloom & Bliss Hamper",
-    name: "The Bloom & Bliss Hamper",
+    name: "The Bloom & Bliss Hamper (Room Hamper)",
     image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762951298/SnackDelighthamper_lkaid2.webp",
     images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762951298/SnackDelighthamper_lkaid2.webp"],
     price: 700,
@@ -984,7 +984,7 @@ Packed in a beautiful printed jute bag, this hamper blends taste with style — 
   },
   {
     id: "The Luxe Snack Affair",
-    name: "The Luxe Snack Affair",
+    name: "The Luxe Snack Affair (Room Hamper)",
     image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762951297/SensationalGourmetSnacksRoomGiftHamper_hlkcdn.webp",
     images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762951297/SensationalGourmetSnacksRoomGiftHamper_hlkcdn.webp"],
     price: 820,
@@ -1006,7 +1006,7 @@ Beautifully presented in an elegant Metal Basket adorned with Floral Décor, thi
  },
  {
     id: "The Signature Welcome Basket",
-    name: "The Signature Welcome Basket",
+    name: "The Signature Welcome Basket (Room Hamper)",
     image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762951296/In-RoomSnackHamper_h3z7a8.webp",
     images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762951296/In-RoomSnackHamper_h3z7a8.webp"],
     price: 420,
@@ -1025,10 +1025,232 @@ Beautifully presented in an elegant Metal Basket adorned with Floral Décor, thi
 
 Elegantly packed in a Festive Paper Bag with Ribbon Decoration, this hamper combines simplicity and sophistication — making it the perfect treat to refresh, surprise, and delight.`},
 
+{
+    id: "Elegant Dome Gift Collect",
+    name: "Elegant Dome Gift Collect (Room Hamper)",
+    image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762951295/DomeRoomGiftHamper_btlnir.webp",
+    images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762951295/DomeRoomGiftHamper_btlnir.webp"],
+    price: 749,
+    category: "occasional-gifts",
+    subCategory: "wedding",
+    description: `A perfect blend of taste, freshness, and thoughtful hosting, the Dome Room Gift Hamper is designed to make every welcome feel special. Ideal for hotel room greetings, guest hospitality, celebrations, or thoughtful gifting, it brings together comfort, convenience, and delightful snacking in one charming package.
+
+✨ What’s Inside:
+🍟 Lays
+🔥 Kurkure
+🧃 Real Juice
+🥤 Coca-Cola Can
+🍰 Britannia Cake
+🌮 Doritos
+🍪 Cadbury Cookies
+🧃 Paper Boat Aamras
+🧺 Premium Big Basket
+
+Beautifully arranged in a Premium Dome-Style Basket, this hamper blends elegance with everyday indulgence — making it the perfect surprise to refresh, delight, and create a memorable experience for any recipient.`
+},
+{
+    id: "Royal Comfort Room Gift Hamper",
+    name: "Royal Comfort Room Gift Hamper (Room Hamper)",
+    image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762951295/ClassicEleganceRoomGiftHamper_etz0um.webp",
+    images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762951295/ClassicEleganceRoomGiftHamper_etz0um.webp"],
+    price: 811,
+    category: "occasional-gifts",
+    subCategory: "wedding",
+    description: `A refined blend of taste, style, and warm hospitality, the Classic Elegance Room Gift Hamper is curated to elevate every guest experience. Perfect for hotel welcomes, celebrations, or thoughtful gifting, this hamper brings together premium snacks and aesthetic presentation for a truly memorable touch.
+
+✨ What’s Inside:
+🍟 Lays
+🔥 Kurkure
+🧃 Real Juice
+🥤 Coca-Cola Can
+🍰 Britannia Cake
+🌮 Doritos
+🍪 Cadbury Cookies
+🧃 Paper Boat Aamras
+🧺 Metal Basket
+🌸 Floral Décor
+
+Beautifully presented in a Metal Basket adorned with floral decor, this hamper offers the perfect mix of indulgence and elegance — making every welcome feel special, warm, and unforgettable.`
+},
+{
+    id: "Heritage Room Gift Hamper",
+    name: "Heritage Room Gift Hamper (Room Hamper)",
+    image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762951294/AztecRoomGiftHamper_vudwga.webp",
+    images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762951294/AztecRoomGiftHamper_vudwga.webp"],
+    price: 699,
+    category: "occasional-gifts",
+    subCategory: "wedding",
+    description: `The Aztec Wedding Room Gift Hamper is a stunning blend of celebration, warmth, and thoughtful hospitality—perfect for welcoming wedding guests or adding a touch of festivity to any special occasion. Designed with vibrant aesthetics and curated with premium treats, this hamper delivers joy in every detail.
+
+✨ What’s Inside:
+🍟 Lays
+🔥 Kurkure
+🧃 Real Juice
+🥤 Coca-Cola Can
+🍰 Britannia Cake
+🌮 Doritos
+🍪 Cadbury Cookies
+🧃 Paper Boat Aamras
+🎁 Festive Tray
+✨ Net Decoration
+🌸 Floral Décor
+
+Expertly arranged on a Festive Tray with elegant Net and Floral Decoration, this hamper blends modern indulgence with wedding charm—making every guest feel welcomed, appreciated, and truly celebrated.`},
+
+{
+    id: "Guest Delight Room Hamper",
+    name: "Guest Delight Room Hamper (Room Hamper)",
+    image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762951294/IMG_9399_1_in0i46.webp",
+    images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762951294/IMG_9399_1_in0i46.webp"],
+    price: 649,
+    category: "occasional-gifts",
+    subCategory: "wedding",
+    description: `Show your appreciation to your guests with thoughtful, personalized tokens of gratitude. Our Wedding Room Hampers are crafted to make every guest feel welcomed, valued, and truly part of your celebration. You can also add custom welcome notes, itinerary details, or keepsakes to make their stay even more memorable.
+
+✨ What’s Inside:
+🍟 Lays Chips
+🔥 Kurkure
+🧃 Real Juice
+🥤 Coca-Cola Can
+🍰 Cake
+🌮 Doritos
+🍪 Cadbury Cookies
+🥨 Bhujia
+👜 Transparent Jute Bag (11 × 6 × 6 inches)
+
+Please mention any name personalization or customization requirements during checkout. For any additional queries, feel free to message us on WhatsApp — the link is available on the bottom right corner.
+
+Gifting Recommendation
+
+Immerse your guests in an atmosphere of warmth and comfort with our beautifully curated wedding room hampers. Thoughtfully selected snacks, elegant packaging, and personalized touches ensure your guests enjoy a welcoming experience that feels luxurious and heartfelt.
+
+Why the Wedding Room Hamper Is the Perfect Gift for Your Guests
+
+Transform your wedding venue into a haven of joy and hospitality. Our Wedding Room Hampers elevate your guests’ experience, making them feel cherished from the moment they arrive. These delightful treats and thoughtful inclusions add a personal touch, creating unforgettable moments throughout your celebration.
+Because every guest deserves to be part of a love story as beautiful as yours.`},
+{
+    id: "Haldi,Mehendi,Teej favour ",
+    name: "Haldi / Mehendi / Teej Hampers",
+    image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763104826/96F25A36-FE58-44E6-BD5C-58E3CC771367_namxl0.webp",
+    images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763104826/96F25A36-FE58-44E6-BD5C-58E3CC771367_namxl0.webp"],
+    price: 199,
+    category: "occasional-gifts",
+    subCategory: "wedding",
+    description: `A beautifully crafted floral zari potli with an ornate pearl handle forms the centerpiece of this charming gifting set. Paired with a stunning kundan pearl bracelet and a matching kundan ring, it brings together tradition and elegance in perfect harmony.
+
+To complete the ensemble, a fragrant gajra adds a touch of festive grace, while a saunf / mehendi cone provides the classic traditional element, making this set ideal for weddings, mehendi ceremonies, festive gifting, or bridal favors.
+`},
+{
+    id: "Haldi & Mehandi Potli ",
+    name: "HALDI & MEHANDI Potli",
+    image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763104824/WhatsAppImage2025-02-02at11.31.45PM_mcwvad.jpg",
+    images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763104824/WhatsAppImage2025-02-02at11.31.45PM_mcwvad.jpg"],
+    price: 120,
+    category: "occasional-gifts",
+    subCategory: "wedding",
+    description: `This exquisite gifting ensemble features a luxurious Organza Banarasi Potli, blending traditional craftsmanship with modern elegance. Complementing the potli is a charming Pearl Bandhej Bracelet and an Adjustable Bandhej Ring, both designed to add a festive and stylish touch to any look.
+
+A delicate Gajra Scrunchie brings in floral grace, making it perfect for weddings, mehendi functions, festive favors, or bridal gifting. Available in assorted colors, this set offers the perfect balance of beauty, tradition, and thoughtful detailing.
+`},
+{
+    id: "Haldi Hamper ",
+    name: "Haldi Hamper",
+    image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763104824/WhatsAppImage2025-02-22at11.16.39PM_prpjfr.jpg",
+    images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763104824/WhatsAppImage2025-02-22at11.16.39PM_prpjfr.jpg"],
+    price: 99,
+    category: "occasional-gifts",
+    subCategory: "wedding",
+    description: `A vibrant Gota Potli in mix colors sets the tone for this beautifully curated festive set. Paired with a pair of gota beads bangles in coordinated mix colors, it adds a charming traditional touch perfect for weddings, haldi, mehendi, or festive celebrations.
+
+The ensemble also includes a delicate floral maangtika and a floral adjustable ring, completing the look with a graceful blend of elegance and tradition. A personalised card adds a heartfelt touch, making this set an ideal choice for gifting or return favors that leave a lasting impression. 
+`},
+{
+    id: "Haldi & Mehandi Hamper ",
+    name: "Haldi & Mehandi Hamper",
+    image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763106087/AEE11B1C-5EEA-4CAD-B8AF-FE69CE59BE24_qycmfv.webp",
+    images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763106087/AEE11B1C-5EEA-4CAD-B8AF-FE69CE59BE24_qycmfv.webp",
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763106087/6748B2F0-2570-4400-AA66-1143A0C24C83_ifeygi.webp",
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763106087/52B68C93-EB76-488E-9ED5-4396E2DEA7E9_hpucp7.webp"
+    ],
+    price: 179,
+    category: "occasional-gifts",
+    subCategory: "wedding",
+    description: `This charming gifting set includes a beautifully crafted Potli, perfect for festive occasions and celebrations. Paired with a Bangle Pair in mix colours, it adds a vibrant traditional touch to any outfit.
+
+A colourful Bindi Sheet is included to enhance the look with classic elegance, along with a Mehendi Cone to complete the festive essentials. Thoughtful, simple, and beautifully curated — ideal for mehendi favors, wedding giveaways, or festive gifting.
+`},
+{
+    id: "Handmade Earings Set ",
+    name: "Handmade Earings Set",
+    image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763107051/CFE2353_D_ifpbol.webp",
+    images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763107051/CFE2353_D_ifpbol.webp",
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763107051/CFE2357_D_x2blwn.webp"
+    ],
+    price: 479,
+    category: "occasional-gifts",
+    subCategory: "wedding",
+    description: `Presenting our exquisite “Dulhan ki Behen” Beaded Earrings, a signature piece from our handcrafted jewellery collection. More than just accessories, these earrings capture the charm of Indian tradition with a playful, character-inspired theme—perfect for Haldi and Mehndi celebrations.
+
+Crafted with precision and artistry, the vibrant pink beads sway beautifully with every movement, adding a touch of festive sparkle to your look. Designed for the modern woman with a spirited heart, they feature a secure push-back closure that ensures comfort throughout long celebrations. Their lightweight build lets you enjoy every moment—from dancing to posing—without any discomfort.
+
+Ideal for the bright, joyful vibes of spring and summer weddings, these earrings don’t just complement your ensemble—they complete it. Whether you’re a bridesmaid, a sister of the bride, or simply love festive elegance, the “Dulhan ki Behen” Beaded Earrings promise to make your entrance unforgettable.
+
+A must-have for Haldi, Mehndi, and all wedding festivities, this pair is the perfect addition to any jewellery collection.
+`},
+{
+    id: "3 jar dryfruit hamper",
+    name: "3 Jar Dryfruit Hamper (Return Gifts)",
+    image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763110690/IMG-20250304-WA0005_cr90pz.webp",
+    images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763110690/IMG-20250304-WA0005_cr90pz.webp"
+    ],
+    price: 899,
+    category: "occasional-gifts",
+    subCategory: "wedding",
+    description: `Cashew: 200g
+Almond: 200g
+Kishmish: 200g
+
+Elegantly packed in a premium MDF box with 3 airtight jars, this Wedding Return Gift Box brings together taste, health, and sophistication—perfect for thanking your guests with something truly meaningful.
+
+Each jar is filled with high-quality Cashews, Almonds, and Kishmish, offering a thoughtful blend of wellness and indulgence. The airtight jars maintain freshness and hygiene, while the sleek MDF box adds a luxurious touch that enhances the overall presentation.
+
+Ideal for weddings, engagements, and all festive ceremonies, these 3-jar dry fruit boxes are a symbol of warmth, gratitude, and refined hospitality. Compact, stylish, and easy to carry, they make the perfect take-home keepsake that guests truly appreciate.
+
+With the rising trend of healthy and elegant gifting, these wedding return gift boxes have become a preferred choice across India. The box can also be personalized with the couple’s names, wedding date, or a heartfelt message, making every gift feel special and memorable.
+
+A smart, elegant, and timeless wedding return gift—perfectly blending flavor, freshness, and heartfelt sentiment.
+`},
+{
+    id: "Vibrant Haldi Rasam Gift Set",
+    name: "Vibrant Haldi Rasam Gift Set",
+    image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763111033/47DFCC17-D0F6-4D37-939E-69FC9A463411_msnyio.webp",
+    images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763111033/47DFCC17-D0F6-4D37-939E-69FC9A463411_msnyio.webp"
+    ],
+    price: 249,
+    category: "occasional-gifts",
+    subCategory: "wedding",
+    description: `This vibrant and culturally inspired hamper celebrates the rich charm of Rajasthan, making it a perfect pick for Haldi, Mehendi, wedding favors, or festive gifting.
+
+✨ Includes:
+
+👜 Rajasthani Theme Bag
+(Traditional prints, design & color may vary — each piece carries its own unique charm.)
+
+🧣 Bandhej Dupatta
+(Mix colors available, crafted in classic tie-dye patterns for a bright and festive touch.)
+
+🌼 Gota Beads Bangles
+(Mix color pairs featuring intricate gota detailing, adding elegance and tradition to the ensemble.)
+
+🔴 Colored Bindi Sheet
+(Multiple sizes and colors to complete the traditional festive look.)
+
+Thoughtfully curated with vibrant Rajasthani aesthetics, this hamper is perfect for adding joy, culture, and color to any celebration.
+`},
   // OCCASIONAL - subCategory: engagement
   {
     id: "occ-engagement-1",
-    name: "Engagement Celebration Box",
+    name: "Engagement Celebration Box ",
     image: "https://picsum.photos/seed/occ-engagement-1/600/400",
     images: [],
     price: 1799,
@@ -2514,7 +2736,9 @@ Elegantly packed in a Festive Paper Bag with Ribbon Decoration, this hamper comb
 export const topPicks: Product[] = products.slice(0, 8);
 
 export function getById(id: string) {
-  return products.find((p) => p.id === id);
+  if (!id) return undefined;
+  const normalized = decodeURIComponent(String(id)).trim().toLowerCase();
+  return products.find((p) => String(p.id).trim().toLowerCase() === normalized);
 }
 
 export function listByCategory(cat?: string) {

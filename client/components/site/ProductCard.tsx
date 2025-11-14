@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { useCart } from "@/context/cart";
 import { useToast } from "@/hooks/use-toast";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import { useState, useEffect } from "react";
 
 export type Product = import("@shared/api").Product;
@@ -10,6 +10,7 @@ export default function ProductCard({ product }: { product: Product }) {
   const { add, setQty, state } = useCart();
   const { toast } = useToast();
   const [imageIndex, setImageIndex] = useState(0);
+  const location = useLocation();
 
   // Get all images for auto-rotation
   const allImages = product.images && product.images.length > 0 ? product.images : [product.image];
@@ -72,7 +73,22 @@ export default function ProductCard({ product }: { product: Product }) {
 
   return (
     <div className="group rounded-lg md:rounded-xl border border-border bg-white overflow-hidden shadow-sm transition hover:shadow-md w-full flex flex-col">
-      <Link to={`/product/${product.id}`} className="block flex-1">
+  <Link
+    to={`/product/${product.id}`}
+    state={{ from: location.pathname + location.search }}
+    className="block flex-1"
+    onClick={(e) => {
+      // If user opened in new tab / used modifier keys, don't modify history.
+      if ((e as any).ctrlKey || (e as any).metaKey || (e as any).shiftKey || (e as any).altKey) return;
+      try {
+        // Ensure there's an explicit history entry for the current products page
+        // so the browser Back button reliably returns here.
+        window.history.pushState({}, '', location.pathname + location.search);
+      } catch (err) {
+        // ignore
+      }
+    }}
+  >
         <div className="relative aspect-square overflow-hidden rounded-lg bg-accent">
           <img
             src={allImages[imageIndex]}

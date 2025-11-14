@@ -231,6 +231,10 @@ export default function NavBar() {
                               <Link
                                 key={String(sc)}
                                 to={`${c.path}?sub=${encodeURIComponent(String(sc) || "")}`}
+                                onClick={() => {
+                                  setShopOpen(false);
+                                  setShopPinned(false);
+                                }}
                                 className="block text-lg tracking-wide uppercase text-gray-600 hover:text-primary transition-colors py-2"
                               >
                                 {labelize(String(sc))}
@@ -239,7 +243,14 @@ export default function NavBar() {
                           </div>
 
                           <div className="mt-8">
-                            <Link to={c.path} className="inline-block px-8 py-3 text-base bg-primary text-white rounded-md hover:bg-primary/90 transition-colors">
+                            <Link 
+                              to={c.path}
+                              onClick={() => {
+                                setShopOpen(false);
+                                setShopPinned(false);
+                              }}
+                              className="inline-block px-8 py-3 text-base bg-primary text-white rounded-md hover:bg-primary/90 transition-colors"
+                            >
                               View All
                             </Link>
                           </div>

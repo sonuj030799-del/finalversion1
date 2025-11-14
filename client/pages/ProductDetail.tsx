@@ -1,6 +1,6 @@
-import { useParams, Link } from "react-router-dom";
+import { useParams, Link, useNavigate, useLocation } from "react-router-dom";
 import { getById, listByCategory } from "@/data/catalog";
-import { useMemo, useState } from "react";
+import { useMemo, useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
 import { useCart } from "@/context/cart";
 import { ChevronLeft, ChevronRight, X } from "lucide-react";
@@ -13,6 +13,8 @@ function currency(n: number) {
 export default function ProductDetail() {
   const { id } = useParams();
   const product = useMemo(() => getById(String(id)), [id]);
+  const navigate = useNavigate();
+  const location = useLocation();
   const { add, setCustomMessage: setCartCustomMessage } = useCart();
   const { toast } = useToast();
   const [qty, setQty] = useState(25); // Start with minimum quantity
@@ -34,6 +36,21 @@ export default function ProductDetail() {
     }
   };
 
+  // Ensure there's a products-page history entry so browser Back returns there.
+  useEffect(() => {
+    const from = (location.state as any)?.from;
+    if (!from) return;
+    try {
+      const current = location.pathname + location.search;
+      // Push the originating products URL then re-push the current product URL
+      // This guarantees a reliable previous entry for the browser Back button.
+      window.history.pushState({}, '', from);
+      window.history.pushState({}, '', current);
+    } catch (err) {
+      // ignore failures (older browsers / CSP)
+    }
+  }, []);
+
   if (!product) {
     return (
       <div className="container mx-auto py-12">
@@ -43,6 +60,16 @@ export default function ProductDetail() {
       </div>
     );
   }
+
+  const handleBack = () => {
+    // Prefer a `from` location passed in Link state (preserves query params). Fallback to history back.
+    const from = (location.state as any)?.from;
+    if (from) {
+      navigate(from);
+    } else {
+      navigate(-1);
+    }
+  };
 
   const related = listByCategory(product.category).filter((p) => p.id !== product.id).slice(0, 4);
   const hasDiscount = product.originalPrice && product.originalPrice > product.price;
@@ -69,6 +96,9 @@ export default function ProductDetail() {
 
   return (
     <div className="container mx-auto py-12">
+      <button onClick={handleBack} className="mb-6 text-sm text-primary hover:underline flex items-center gap-2">
+        <ChevronLeft className="h-4 w-4" /> Back
+      </button>
       <div className="grid md:grid-cols-2 gap-10">
         <div>
           <button

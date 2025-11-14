@@ -27,16 +27,18 @@ export default function Products() {
   const pageItems = list.slice(startIdx, startIdx + perPage);
   const location = useLocation();
 
-  // clamp page param if it's out of range (e.g., after filtering/removal)
-  // do this as an effect to avoid side-effects during render
+  // Only rewrite the page query when the incoming pageParam is invalid (NaN, <1 or > totalPages).
+  // Rewriting for valid page numbers can replace a history entry and break the Back button.
   useEffect(() => {
-    if (pageParam !== currentPage) {
+    const isInvalidPage = Number.isNaN(pageParam) || pageParam < 1 || pageParam > totalPages;
+    if (isInvalidPage) {
       const params = new URLSearchParams(location.search);
       params.set("page", String(currentPage));
+      // replace: true is appropriate here because we're correcting an invalid URL
       navigate(`${location.pathname}?${params.toString()}`, { replace: true });
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [pageParam, currentPage, location.pathname, location.search]);
+  }, [pageParam, currentPage, location.pathname, location.search, totalPages]);
 
   const title = term
     ? `Search: ${term}`
